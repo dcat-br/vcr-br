@@ -6,13 +6,13 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 
-@prefix ods: <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> .
+@prefix ods: <https://dcat-br.github.io/vcr-br/ods/> .
 
 #######################################################################
 # ODS — Objetivos de Desenvolvimento Sustentável (DCAT-BR)
 #######################################################################
 
-<https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/>
+<https://dcat-br.github.io/vcr-br/ods/>
   a owl:Ontology, skos:ConceptScheme ;
   dct:title "Vocabulário Controlado — Objetivos de Desenvolvimento Sustentável (ODS)"@pt-BR ;
   dct:title "Controlled Vocabulary — Sustainable Development Goals (SDGs)"@en ;
@@ -47,8 +47,8 @@
 
 ods:erradicacao_da_pobreza
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "1" ;
   skos:prefLabel "Erradicação da Pobreza"@pt-BR ;
   skos:prefLabel "No poverty"@en ;
@@ -57,8 +57,8 @@ ods:erradicacao_da_pobreza
 
 ods:fome_zero_e_agricultura_sustentavel
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "2" ;
   skos:prefLabel "Fome Zero e Agricultura Sustentável"@pt-BR ;
   skos:prefLabel "Zero hunger"@en ;
@@ -67,8 +67,8 @@ ods:fome_zero_e_agricultura_sustentavel
 
 ods:saude_e_bem-estar
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "3" ;
   skos:prefLabel "Saúde e Bem-Estar"@pt-BR ;
   skos:prefLabel "Good health and well-being"@en ;
@@ -77,8 +77,8 @@ ods:saude_e_bem-estar
 
 ods:educacao_de_qualidade
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "4" ;
   skos:prefLabel "Educação de Qualidade"@pt-BR ;
   skos:prefLabel "Quality education"@en ;
@@ -87,8 +87,8 @@ ods:educacao_de_qualidade
 
 ods:igualdade_de_genero
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "5" ;
   skos:prefLabel "Igualdade de Gênero"@pt-BR ;
   skos:prefLabel "Gender equality"@en ;
@@ -97,8 +97,8 @@ ods:igualdade_de_genero
 
 ods:agua_limpa_e_saneamento
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "6" ;
   skos:prefLabel "Água Limpa e Saneamento"@pt-BR ;
   skos:prefLabel "Clean water and sanitation"@en ;
@@ -107,8 +107,8 @@ ods:agua_limpa_e_saneamento
 
 ods:energia_limpa_e_acessivel
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "7" ;
   skos:prefLabel "Energia Limpa e Acessível"@pt-BR ;
   skos:prefLabel "Affordable and clean energy"@en ;
@@ -117,8 +117,8 @@ ods:energia_limpa_e_acessivel
 
 ods:trabalho_decente_e_crescimento_economico
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "8" ;
   skos:prefLabel "Trabalho Decente e Crescimento Econômico"@pt-BR ;
   skos:prefLabel "Decent work and economic growth"@en ;
@@ -127,8 +127,8 @@ ods:trabalho_decente_e_crescimento_economico
 
 ods:industria_inovacao_e_infraestrutura
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "9" ;
   skos:prefLabel "Indústria, Inovação e Infraestrutura"@pt-BR ;
   skos:prefLabel "Industry, innovation and infrastructure"@en ;
@@ -137,8 +137,8 @@ ods:industria_inovacao_e_infraestrutura
 
 ods:reducao_das_desigualdades
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "10" ;
   skos:prefLabel "Redução das Desigualdades"@pt-BR ;
   skos:prefLabel "Reduced inequalities"@en ;
@@ -147,8 +147,8 @@ ods:reducao_das_desigualdades
 
 ods:cidades_e_comunidades_sustentaveis
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "11" ;
   skos:prefLabel "Cidades e Comunidades Sustentáveis"@pt-BR ;
   skos:prefLabel "Sustainable cities and communities"@en ;
@@ -157,8 +157,8 @@ ods:cidades_e_comunidades_sustentaveis
 
 ods:consumo_e_producao_sustentaveis
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "12" ;
   skos:prefLabel "Consumo e Produção Sustentáveis"@pt-BR ;
   skos:prefLabel "Responsible consumption and production"@en ;
@@ -167,8 +167,8 @@ ods:consumo_e_producao_sustentaveis
 
 ods:acao_contra_a_mudanca_global_do_clima
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "13" ;
   skos:prefLabel "Ação contra a Mudança Global do Clima"@pt-BR ;
   skos:prefLabel "Climate action"@en ;
@@ -177,8 +177,8 @@ ods:acao_contra_a_mudanca_global_do_clima
 
 ods:vida_na_agua
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "14" ;
   skos:prefLabel "Vida na Água"@pt-BR ;
   skos:prefLabel "Life below water"@en ;
@@ -187,8 +187,8 @@ ods:vida_na_agua
 
 ods:vida_terrestre
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "15" ;
   skos:prefLabel "Vida Terrestre"@pt-BR ;
   skos:prefLabel "Life on land"@en ;
@@ -197,8 +197,8 @@ ods:vida_terrestre
 
 ods:paz_justica_e_instituicoes_eficazes
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "16" ;
   skos:prefLabel "Paz, Justiça e Instituições Eficazes"@pt-BR ;
   skos:prefLabel "Peace, justice and strong institutions"@en ;
@@ -207,8 +207,8 @@ ods:paz_justica_e_instituicoes_eficazes
 
 ods:parcerias_e_meios_de_implementacao
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/ods/> ;
   skos:notation "17" ;
   skos:prefLabel "Parcerias e Meios de Implementação"@pt-BR ;
   skos:prefLabel "Partnerships for the goals"@en ;

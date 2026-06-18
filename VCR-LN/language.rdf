@@ -7,7 +7,7 @@
   xmlns:dc11="http://purl.org/dc/elements/1.1/"
   xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-LN/">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 
@@ -33,7 +33,7 @@
     <dcterms:source rdf:resource="http://id.loc.gov/vocabulary/iso639-1"/>
 
     <owl:versionInfo>2026-06-18</owl:versionInfo>
-    <owl:versionIRI rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/2026-06-18/"/>
+    <owl:versionIRI rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/2026-06-18/"/>
 
     <skos:hasTopConcept rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
     <skos:hasTopConcept rdf:resource="http://id.loc.gov/vocabulary/iso639-1/pt"/>
@@ -45,8 +45,8 @@
 
   <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/en">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
     <skos:notation>en</skos:notation>
     <dcterms:identifier>en</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Inglês</skos:prefLabel>
@@ -60,8 +60,8 @@
 
   <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/pt">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
     <skos:notation>pt</skos:notation>
     <dcterms:identifier>pt</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Português</skos:prefLabel>
@@ -75,8 +75,8 @@
 
   <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/es">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
     <skos:notation>es</skos:notation>
     <dcterms:identifier>es</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Espanhol</skos:prefLabel>
@@ -90,8 +90,8 @@
 
   <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/fr">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
     <skos:notation>fr</skos:notation>
     <dcterms:identifier>fr</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Francês</skos:prefLabel>
@@ -106,8 +106,8 @@
 
   <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/de">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
     <skos:notation>de</skos:notation>
     <dcterms:identifier>de</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Alemão</skos:prefLabel>
@@ -122,8 +122,8 @@
 
   <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/it">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-LN/"/>
     <skos:notation>it</skos:notation>
     <dcterms:identifier>it</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Italiano</skos:prefLabel>

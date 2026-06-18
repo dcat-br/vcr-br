@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix vcr-ln: <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/> .
+@prefix vcr-ln: <https://dcat-br.github.io/vcr-br/VCR-LN/> .
 
 #######################################################################
 # Linguagem (VCR-LN) - ISO 639-1
@@ -21,7 +21,7 @@ vcr-ln:
   dc:license <https://creativecommons.org/licenses/by/4.0/> ;
   dc:source <http://id.loc.gov/vocabulary/iso639-1> ;
   owl:versionInfo "2026-06-18" ;
-  owl:versionIRI <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/2026-06-18/> ;
+  owl:versionIRI <https://dcat-br.github.io/vcr-br/VCR-LN/2026-06-18/> ;
   skos:hasTopConcept <http://id.loc.gov/vocabulary/iso639-1/en>, <http://id.loc.gov/vocabulary/iso639-1/pt>, <http://id.loc.gov/vocabulary/iso639-1/es>, <http://id.loc.gov/vocabulary/iso639-1/fr>, <http://id.loc.gov/vocabulary/iso639-1/de>, <http://id.loc.gov/vocabulary/iso639-1/it> ;
  .
 

@@ -6,9 +6,9 @@ https://www.iana.org/assignments/media-types/application/gzip,gz
 https://www.iana.org/assignments/media-types/text/html,html
 https://www.iana.org/assignments/media-types/image/jpeg,jpeg
 https://www.iana.org/assignments/media-types/application/json,json
-https://dcat-br.github.io/dcat-br/docs/vocabularies/formato/api,api
-https://dcat-br.github.io/dcat-br/docs/vocabularies/formato/data,data
-https://dcat-br.github.io/dcat-br/docs/vocabularies/formato/odata,odata
+https://dcat-br.github.io/vcr-br/formato/api,api
+https://dcat-br.github.io/vcr-br/formato/data,data
+https://dcat-br.github.io/vcr-br/formato/odata,odata
 https://www.iana.org/assignments/media-types/application/pdf,pdf
 https://www.iana.org/assignments/media-types/image/png,png
 https://www.iana.org/assignments/media-types/application/x-rar-compressed,rar

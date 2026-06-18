@@ -7,7 +7,7 @@
   xmlns:dc11="http://purl.org/dc/elements/1.1/"
   xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 
@@ -32,23 +32,23 @@
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
 
     <owl:versionInfo>2026-06-17</owl:versionInfo>
-    <owl:versionIRI rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/2026-06-17/"/>
+    <owl:versionIRI rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/2026-06-17/"/>
 
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/brasil"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/estado_distrito_federal"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/municipio"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_norte"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_nordeste"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_centro_oeste"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_sudeste"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_sul"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/internacional"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/brasil"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/estado_distrito_federal"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/municipio"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_norte"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_nordeste"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_centro_oeste"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_sudeste"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_sul"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/internacional"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/brasil">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/brasil">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
     <skos:notation>BRASIL</skos:notation>
     <dcterms:identifier>BRASIL</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Brasil</skos:prefLabel>
@@ -56,10 +56,10 @@
     <skos:definition xml:lang="pt-BR">Cobertura espacial de abrangência nacional, referente a dados que se aplicam a todo o território brasileiro.</skos:definition>
     <skos:definition xml:lang="en">National spatial coverage, referring to data that applies to the entire Brazilian territory.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/estado_distrito_federal">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/estado_distrito_federal">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
     <skos:notation>ESTADO_DISTRITO_FEDERAL</skos:notation>
     <dcterms:identifier>ESTADO_DISTRITO_FEDERAL</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Estado/Distrito Federal</skos:prefLabel>
@@ -67,10 +67,10 @@
     <skos:definition xml:lang="pt-BR">Cobertura espacial de abrangência estadual ou distrital, referente a dados que se aplicam a um ou mais estados brasileiros ou ao Distrito Federal.</skos:definition>
     <skos:definition xml:lang="en">State-level or Federal District spatial coverage, referring to data that applies to one or more Brazilian states or to the Federal District.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/municipio">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/municipio">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
     <skos:notation>MUNICIPIO</skos:notation>
     <dcterms:identifier>MUNICIPIO</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Município</skos:prefLabel>
@@ -78,10 +78,10 @@
     <skos:definition xml:lang="pt-BR">Cobertura espacial de abrangência municipal, referente a dados que se aplicam a um ou mais municípios brasileiros.</skos:definition>
     <skos:definition xml:lang="en">Municipal spatial coverage, referring to data that applies to one or more Brazilian municipalities.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_norte">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_norte">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
     <skos:notation>REGIAO_NORTE</skos:notation>
     <dcterms:identifier>REGIAO_NORTE</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Região Norte</skos:prefLabel>
@@ -89,10 +89,10 @@
     <skos:definition xml:lang="pt-BR">Cobertura espacial da Região Norte do Brasil, conforme divisão regional do IBGE.</skos:definition>
     <skos:definition xml:lang="en">Spatial coverage of the North Region of Brazil, according to the IBGE regional division.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_nordeste">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_nordeste">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
     <skos:notation>REGIAO_NORDESTE</skos:notation>
     <dcterms:identifier>REGIAO_NORDESTE</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Região Nordeste</skos:prefLabel>
@@ -100,10 +100,10 @@
     <skos:definition xml:lang="pt-BR">Cobertura espacial da Região Nordeste do Brasil, conforme divisão regional do IBGE.</skos:definition>
     <skos:definition xml:lang="en">Spatial coverage of the Northeast Region of Brazil, according to the IBGE regional division.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_centro_oeste">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_centro_oeste">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
     <skos:notation>REGIAO_CENTRO_OESTE</skos:notation>
     <dcterms:identifier>REGIAO_CENTRO_OESTE</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Região Centro-Oeste</skos:prefLabel>
@@ -111,10 +111,10 @@
     <skos:definition xml:lang="pt-BR">Cobertura espacial da Região Centro-Oeste do Brasil, conforme divisão regional do IBGE.</skos:definition>
     <skos:definition xml:lang="en">Spatial coverage of the Central-West Region of Brazil, according to the IBGE regional division.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_sudeste">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_sudeste">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
     <skos:notation>REGIAO_SUDESTE</skos:notation>
     <dcterms:identifier>REGIAO_SUDESTE</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Região Sudeste</skos:prefLabel>
@@ -122,10 +122,10 @@
     <skos:definition xml:lang="pt-BR">Cobertura espacial da Região Sudeste do Brasil, conforme divisão regional do IBGE.</skos:definition>
     <skos:definition xml:lang="en">Spatial coverage of the Southeast Region of Brazil, according to the IBGE regional division.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_sul">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/regiao_sul">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
     <skos:notation>REGIAO_SUL</skos:notation>
     <dcterms:identifier>REGIAO_SUL</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Região Sul</skos:prefLabel>
@@ -133,10 +133,10 @@
     <skos:definition xml:lang="pt-BR">Cobertura espacial da Região Sul do Brasil, conforme divisão regional do IBGE.</skos:definition>
     <skos:definition xml:lang="en">Spatial coverage of the South Region of Brazil, according to the IBGE regional division.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/internacional">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-CE/internacional">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-CE/"/>
     <skos:notation>INTERNACIONAL</skos:notation>
     <dcterms:identifier>INTERNACIONAL</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Internacional</skos:prefLabel>

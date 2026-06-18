@@ -1,7 +1,7 @@
 https://www.iana.org/assignments/media-types/text/csv,csv
 https://www.iana.org/assignments/media-types/application/json,json
-https://dcat-br.github.io/dcat-br/docs/vocabularies/formato/api,api
-https://dcat-br.github.io/dcat-br/docs/vocabularies/formato/odata,odata
+https://dcat-br.github.io/vcr-br/formato/api,api
+https://dcat-br.github.io/vcr-br/formato/odata,odata
 https://www.iana.org/assignments/media-types/application/rdf+xml,rdf
 https://www.iana.org/assignments/media-types/application/vnd.ms-excel,xls
 https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,xlsx

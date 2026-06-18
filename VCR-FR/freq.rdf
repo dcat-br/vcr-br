@@ -5,296 +5,296 @@
   xmlns:owl="http://www.w3.org/2002/07/owl#"
   xmlns:dct="http://purl.org/dc/terms/">
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dct:title xml:lang="pt-BR">Vocabulário Controlado de Referência — Frequência (VCR-FR)</dct:title>
     <dct:title xml:lang="en">Reference Controlled Vocabulary — Frequency (VCR-FR)</dct:title>
     <dct:description xml:lang="pt-BR">Vocabulário controlado para descrever a frequência/periodicidade de atualização de conjuntos de dados no perfil DCAT-BR.</dct:description>
     <dct:description xml:lang="en">Controlled vocabulary to describe the update frequency/periodicity of datasets in the DCAT-BR profile.</dct:description>
-    <dct:source rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <dct:source rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-18</dct:issued>
     <owl:versionInfo>1.0.0</owl:versionInfo>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/ANUAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/BIENAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/BIMESTRAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/CONTINUO"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/DIARIA"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/IRREGULAR"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/MENSAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/OUTRAS"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/QUADRIMESTRAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/QUINZENAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SEMANAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SEMESTRAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SEMIMENSAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SEMISSEMANAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SOB_DEMANDA"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRES_VEZES_AO_ANO"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRES_VEZES_POR_MES"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRES_VEZES_POR_SEMANA"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRIENAL"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRIMESTRAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/ANUAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/BIENAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/BIMESTRAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/CONTINUO"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/DIARIA"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/IRREGULAR"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/MENSAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/OUTRAS"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/QUADRIMESTRAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/QUINZENAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/SEMANAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/SEMESTRAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/SEMIMENSAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/SEMISSEMANAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/SOB_DEMANDA"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/TRES_VEZES_AO_ANO"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/TRES_VEZES_POR_MES"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/TRES_VEZES_POR_SEMANA"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/TRIENAL"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/TRIMESTRAL"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/ANUAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/ANUAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>ANUAL</skos:notation>
     <dct:identifier>ANUAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Anual</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Annual</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre uma vez por ano.</skos:definition>
     <skos:definition xml:lang="en">The event occurs once a year.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/annual"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/annual"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/BIENAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/BIENAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>BIENAL</skos:notation>
     <dct:identifier>BIENAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Bienal</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Biennial</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre a cada dois anos.</skos:definition>
     <skos:definition xml:lang="en">The event occurs every two years.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/biennial"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/biennial"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/BIMESTRAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/BIMESTRAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>BIMESTRAL</skos:notation>
     <dct:identifier>BIMESTRAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Bimestral</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Bimonthly</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre a cada dois meses.</skos:definition>
     <skos:definition xml:lang="en">The event occurs every two months.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/bimonthly"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/bimonthly"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/CONTINUO">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/CONTINUO">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>CONTINUO</skos:notation>
     <dct:identifier>CONTINUO</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Contínuo</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Continuous</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento se repete de forma contínua, sem interrupção.</skos:definition>
     <skos:definition xml:lang="en">The event repeats without interruption.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/continuous"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/continuous"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/DIARIA">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/DIARIA">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>DIARIA</skos:notation>
     <dct:identifier>DIARIA</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Diária</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Daily</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre uma vez por dia.</skos:definition>
     <skos:definition xml:lang="en">The event occurs once a day.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/daily"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/daily"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/IRREGULAR">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/IRREGULAR">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>IRREGULAR</skos:notation>
     <dct:identifier>IRREGULAR</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Irregular</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Irregular</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre em intervalos irregulares.</skos:definition>
     <skos:definition xml:lang="en">The event occurs at uneven intervals.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/irregular"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/irregular"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/MENSAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/MENSAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>MENSAL</skos:notation>
     <dct:identifier>MENSAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Mensal</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Monthly</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre uma vez por mês.</skos:definition>
     <skos:definition xml:lang="en">The event occurs once a month.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/monthly"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/monthly"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/OUTRAS">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/OUTRAS">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>OUTRAS</skos:notation>
     <dct:identifier>OUTRAS</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Outras</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Others</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Outras frequências não especificadas.</skos:definition>
     <skos:definition xml:lang="en">Other unspecified frequencies.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/others"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/others"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/QUADRIMESTRAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/QUADRIMESTRAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>QUADRIMESTRAL</skos:notation>
     <dct:identifier>QUADRIMESTRAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Quadrimestral</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Quadrimestral</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre a cada quatro meses.</skos:definition>
     <skos:definition xml:lang="en">The event occurs every four months.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/quadrimestral"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/quadrimestral"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/QUINZENAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/QUINZENAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>QUINZENAL</skos:notation>
     <dct:identifier>QUINZENAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Quinzenal</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Biweekly</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre a cada duas semanas.</skos:definition>
     <skos:definition xml:lang="en">The event occurs every two weeks.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/biweekly"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/biweekly"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SEMANAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/SEMANAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>SEMANAL</skos:notation>
     <dct:identifier>SEMANAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Semanal</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Weekly</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre uma vez por semana.</skos:definition>
     <skos:definition xml:lang="en">The event occurs once a week.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/weekly"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/weekly"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SEMESTRAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/SEMESTRAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>SEMESTRAL</skos:notation>
     <dct:identifier>SEMESTRAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Semestral</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Semiannual</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre duas vezes por ano.</skos:definition>
     <skos:definition xml:lang="en">The event occurs twice a year.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/semiannual"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/semiannual"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SEMIMENSAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/SEMIMENSAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>SEMIMENSAL</skos:notation>
     <dct:identifier>SEMIMENSAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Semimensal</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Semimonthly</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre duas vezes por mês.</skos:definition>
     <skos:definition xml:lang="en">The event occurs twice a month.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/semimonthly"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/semimonthly"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SEMISSEMANAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/SEMISSEMANAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>SEMISSEMANAL</skos:notation>
     <dct:identifier>SEMISSEMANAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Semissemanal</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Semiweekly</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre duas vezes por semana.</skos:definition>
     <skos:definition xml:lang="en">The event occurs twice a week.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/semiweekly"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/semiweekly"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/SOB_DEMANDA">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/SOB_DEMANDA">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>SOB_DEMANDA</skos:notation>
     <dct:identifier>SOB_DEMANDA</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Sob demanda</skos:prefLabel>
     <skos:prefLabel xml:lang="en">On demand</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre sob demanda, quando necessário.</skos:definition>
     <skos:definition xml:lang="en">The event occurs on demand, when necessary.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/onDemand"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/onDemand"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRES_VEZES_AO_ANO">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/TRES_VEZES_AO_ANO">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>TRES_VEZES_AO_ANO</skos:notation>
     <dct:identifier>TRES_VEZES_AO_ANO</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Três vezes ao ano</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Three times a year</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre três vezes por ano.</skos:definition>
     <skos:definition xml:lang="en">The event occurs three times a year.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/threeTimesAYear"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/threeTimesAYear"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRES_VEZES_POR_MES">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/TRES_VEZES_POR_MES">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>TRES_VEZES_POR_MES</skos:notation>
     <dct:identifier>TRES_VEZES_POR_MES</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Três vezes por mês</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Three times a month</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre três vezes por mês.</skos:definition>
     <skos:definition xml:lang="en">The event occurs three times a month.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/threeTimesAMonth"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/threeTimesAMonth"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRES_VEZES_POR_SEMANA">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/TRES_VEZES_POR_SEMANA">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>TRES_VEZES_POR_SEMANA</skos:notation>
     <dct:identifier>TRES_VEZES_POR_SEMANA</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Três vezes por semana</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Three times a week</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre três vezes por semana.</skos:definition>
     <skos:definition xml:lang="en">The event occurs three times a week.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/threeTimesAWeek"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/threeTimesAWeek"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRIENAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/TRIENAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>TRIENAL</skos:notation>
     <dct:identifier>TRIENAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Trienal</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Triennial</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre a cada três anos.</skos:definition>
     <skos:definition xml:lang="en">The event occurs every three years.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/triennial"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/triennial"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/TRIMESTRAL">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/VCR-FR/TRIMESTRAL">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/VCR-FR/"/>
     <skos:notation>TRIMESTRAL</skos:notation>
     <dct:identifier>TRIMESTRAL</dct:identifier>
     <skos:prefLabel xml:lang="pt-BR">Trimestral</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Quarterly</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">O evento ocorre a cada três meses.</skos:definition>
     <skos:definition xml:lang="en">The event occurs every three months.</skos:definition>
-    <skos:exactMatch rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/quarterly"/>
+    <skos:exactMatch rdf:resource="https://dcat-br.github.io/vcr-br/freq/quarterly"/>
   </rdf:Description>
 
 </rdf:RDF>

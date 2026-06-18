@@ -5,20 +5,20 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dct:  <http://purl.org/dc/terms/> .
 
-@prefix vcrfr: <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> .
-@prefix freq:  <https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/> .
+@prefix vcrfr: <https://dcat-br.github.io/vcr-br/VCR-FR/> .
+@prefix freq:  <https://dcat-br.github.io/vcr-br/freq/> .
 
 #######################################################################
 # VCR-FR — Frequência (DCAT-BR)
 #######################################################################
 
-<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/>
+<https://dcat-br.github.io/vcr-br/VCR-FR/>
   a owl:Ontology, skos:ConceptScheme ;
   dct:title "Vocabulário Controlado de Referência — Frequência (VCR-FR)"@pt-BR ;
   dct:title "Reference Controlled Vocabulary — Frequency (VCR-FR)"@en ;
   dct:description "Vocabulário controlado para descrever a frequência/periodicidade de atualização de conjuntos de dados no perfil DCAT-BR."@pt-BR ;
   dct:description "Controlled vocabulary to describe the update frequency/periodicity of datasets in the DCAT-BR profile."@en ;
-  dct:source <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  dct:source <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   dct:issued "2025-12-18"^^xsd:date ;
   owl:versionInfo "1.0.0" ;
   skos:hasTopConcept vcrfr:ANUAL, vcrfr:BIENAL, vcrfr:BIMESTRAL, vcrfr:CONTINUO, vcrfr:DIARIA,
@@ -34,8 +34,8 @@
 
 vcrfr:ANUAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "ANUAL" ;
   dct:identifier "ANUAL" ;
   skos:prefLabel "Anual"@pt-BR ;
@@ -47,8 +47,8 @@ vcrfr:ANUAL
 
 vcrfr:BIENAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "BIENAL" ;
   dct:identifier "BIENAL" ;
   skos:prefLabel "Bienal"@pt-BR ;
@@ -60,8 +60,8 @@ vcrfr:BIENAL
 
 vcrfr:BIMESTRAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "BIMESTRAL" ;
   dct:identifier "BIMESTRAL" ;
   skos:prefLabel "Bimestral"@pt-BR ;
@@ -73,8 +73,8 @@ vcrfr:BIMESTRAL
 
 vcrfr:CONTINUO
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "CONTINUO" ;
   dct:identifier "CONTINUO" ;
   skos:prefLabel "Contínuo"@pt-BR ;
@@ -86,8 +86,8 @@ vcrfr:CONTINUO
 
 vcrfr:DIARIA
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "DIARIA" ;
   dct:identifier "DIARIA" ;
   skos:prefLabel "Diária"@pt-BR ;
@@ -99,8 +99,8 @@ vcrfr:DIARIA
 
 vcrfr:IRREGULAR
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "IRREGULAR" ;
   dct:identifier "IRREGULAR" ;
   skos:prefLabel "Irregular"@pt-BR ;
@@ -112,8 +112,8 @@ vcrfr:IRREGULAR
 
 vcrfr:MENSAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "MENSAL" ;
   dct:identifier "MENSAL" ;
   skos:prefLabel "Mensal"@pt-BR ;
@@ -125,8 +125,8 @@ vcrfr:MENSAL
 
 vcrfr:OUTRAS
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "OUTRAS" ;
   dct:identifier "OUTRAS" ;
   skos:prefLabel "Outras"@pt-BR ;
@@ -138,8 +138,8 @@ vcrfr:OUTRAS
 
 vcrfr:QUADRIMESTRAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "QUADRIMESTRAL" ;
   dct:identifier "QUADRIMESTRAL" ;
   skos:prefLabel "Quadrimestral"@pt-BR ;
@@ -151,8 +151,8 @@ vcrfr:QUADRIMESTRAL
 
 vcrfr:QUINZENAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "QUINZENAL" ;
   dct:identifier "QUINZENAL" ;
   skos:prefLabel "Quinzenal"@pt-BR ;
@@ -164,8 +164,8 @@ vcrfr:QUINZENAL
 
 vcrfr:SEMANAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "SEMANAL" ;
   dct:identifier "SEMANAL" ;
   skos:prefLabel "Semanal"@pt-BR ;
@@ -177,8 +177,8 @@ vcrfr:SEMANAL
 
 vcrfr:SEMESTRAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "SEMESTRAL" ;
   dct:identifier "SEMESTRAL" ;
   skos:prefLabel "Semestral"@pt-BR ;
@@ -190,8 +190,8 @@ vcrfr:SEMESTRAL
 
 vcrfr:SEMIMENSAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "SEMIMENSAL" ;
   dct:identifier "SEMIMENSAL" ;
   skos:prefLabel "Semimensal"@pt-BR ;
@@ -203,8 +203,8 @@ vcrfr:SEMIMENSAL
 
 vcrfr:SEMISSEMANAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "SEMISSEMANAL" ;
   dct:identifier "SEMISSEMANAL" ;
   skos:prefLabel "Semissemanal"@pt-BR ;
@@ -216,8 +216,8 @@ vcrfr:SEMISSEMANAL
 
 vcrfr:SOB_DEMANDA
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "SOB_DEMANDA" ;
   dct:identifier "SOB_DEMANDA" ;
   skos:prefLabel "Sob demanda"@pt-BR ;
@@ -229,8 +229,8 @@ vcrfr:SOB_DEMANDA
 
 vcrfr:TRES_VEZES_AO_ANO
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "TRES_VEZES_AO_ANO" ;
   dct:identifier "TRES_VEZES_AO_ANO" ;
   skos:prefLabel "Três vezes ao ano"@pt-BR ;
@@ -242,8 +242,8 @@ vcrfr:TRES_VEZES_AO_ANO
 
 vcrfr:TRES_VEZES_POR_MES
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "TRES_VEZES_POR_MES" ;
   dct:identifier "TRES_VEZES_POR_MES" ;
   skos:prefLabel "Três vezes por mês"@pt-BR ;
@@ -255,8 +255,8 @@ vcrfr:TRES_VEZES_POR_MES
 
 vcrfr:TRES_VEZES_POR_SEMANA
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "TRES_VEZES_POR_SEMANA" ;
   dct:identifier "TRES_VEZES_POR_SEMANA" ;
   skos:prefLabel "Três vezes por semana"@pt-BR ;
@@ -268,8 +268,8 @@ vcrfr:TRES_VEZES_POR_SEMANA
 
 vcrfr:TRIENAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "TRIENAL" ;
   dct:identifier "TRIENAL" ;
   skos:prefLabel "Trienal"@pt-BR ;
@@ -281,8 +281,8 @@ vcrfr:TRIENAL
 
 vcrfr:TRIMESTRAL
   a skos:Concept ;
-  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
-  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:inScheme <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/vcr-br/VCR-FR/> ;
   skos:notation "TRIMESTRAL" ;
   dct:identifier "TRIMESTRAL" ;
   skos:prefLabel "Trimestral"@pt-BR ;

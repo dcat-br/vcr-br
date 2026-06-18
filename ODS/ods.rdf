@@ -5,55 +5,55 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
 >
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/agua_limpa_e_saneamento">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/agua_limpa_e_saneamento">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>6</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Água Limpa e Saneamento</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Clean water and sanitation</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/6"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/igualdade_de_genero">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/igualdade_de_genero">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>5</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Igualdade de Gênero</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Gender equality</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/5"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/educacao_de_qualidade">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/educacao_de_qualidade">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>4</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Educação de Qualidade</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Quality education</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/4"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/industria_inovacao_e_infraestrutura">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/industria_inovacao_e_infraestrutura">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>9</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Indústria, Inovação e Infraestrutura</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Industry, innovation and infrastructure</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/9"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/vida_terrestre">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/vida_terrestre">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>15</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Vida Terrestre</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Life on land</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/15"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/saude_e_bem-estar">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/saude_e_bem-estar">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>3</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Saúde e Bem-Estar</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Good health and well-being</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/3"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <dct:title xml:lang="pt-BR">Vocabulário Controlado — Objetivos de Desenvolvimento Sustentável (ODS)</dct:title>
@@ -63,107 +63,107 @@
     <dct:source rdf:resource="https://sdgs.un.org/goals"/>
     <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-12</dct:issued>
     <owl:versionInfo>1.0.0</owl:versionInfo>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/erradicacao_da_pobreza"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/fome_zero_e_agricultura_sustentavel"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/saude_e_bem-estar"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/educacao_de_qualidade"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/igualdade_de_genero"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/agua_limpa_e_saneamento"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/energia_limpa_e_acessivel"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/trabalho_decente_e_crescimento_economico"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/industria_inovacao_e_infraestrutura"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/reducao_das_desigualdades"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/cidades_e_comunidades_sustentaveis"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/consumo_e_producao_sustentaveis"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/acao_contra_a_mudanca_global_do_clima"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/vida_na_agua"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/vida_terrestre"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/paz_justica_e_instituicoes_eficazes"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/parcerias_e_meios_de_implementacao"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/erradicacao_da_pobreza"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/fome_zero_e_agricultura_sustentavel"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/saude_e_bem-estar"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/educacao_de_qualidade"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/igualdade_de_genero"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/agua_limpa_e_saneamento"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/energia_limpa_e_acessivel"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/trabalho_decente_e_crescimento_economico"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/industria_inovacao_e_infraestrutura"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/reducao_das_desigualdades"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/cidades_e_comunidades_sustentaveis"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/consumo_e_producao_sustentaveis"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/acao_contra_a_mudanca_global_do_clima"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/vida_na_agua"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/vida_terrestre"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/paz_justica_e_instituicoes_eficazes"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/ods/parcerias_e_meios_de_implementacao"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/consumo_e_producao_sustentaveis">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/consumo_e_producao_sustentaveis">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>12</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Consumo e Produção Sustentáveis</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Responsible consumption and production</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/12"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/reducao_das_desigualdades">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/reducao_das_desigualdades">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>10</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Redução das Desigualdades</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Reduced inequalities</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/10"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/fome_zero_e_agricultura_sustentavel">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/fome_zero_e_agricultura_sustentavel">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>2</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Fome Zero e Agricultura Sustentável</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Zero hunger</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/2"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/paz_justica_e_instituicoes_eficazes">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/paz_justica_e_instituicoes_eficazes">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>16</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Paz, Justiça e Instituições Eficazes</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Peace, justice and strong institutions</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/16"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/energia_limpa_e_acessivel">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/energia_limpa_e_acessivel">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>7</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Energia Limpa e Acessível</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Affordable and clean energy</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/7"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/acao_contra_a_mudanca_global_do_clima">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/acao_contra_a_mudanca_global_do_clima">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>13</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Ação contra a Mudança Global do Clima</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Climate action</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/13"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/vida_na_agua">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/vida_na_agua">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>14</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Vida na Água</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Life below water</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/14"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/cidades_e_comunidades_sustentaveis">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/cidades_e_comunidades_sustentaveis">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>11</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Cidades e Comunidades Sustentáveis</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Sustainable cities and communities</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/11"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/parcerias_e_meios_de_implementacao">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/parcerias_e_meios_de_implementacao">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>17</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Parcerias e Meios de Implementação</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Partnerships for the goals</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/17"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/trabalho_decente_e_crescimento_economico">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/trabalho_decente_e_crescimento_economico">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>8</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Trabalho Decente e Crescimento Econômico</skos:prefLabel>
     <skos:prefLabel xml:lang="en">Decent work and economic growth</skos:prefLabel>
     <skos:exactMatch rdf:resource="http://metadata.un.org/sdg/8"/>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/erradicacao_da_pobreza">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/ods/erradicacao_da_pobreza">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/ods/"/>
     <skos:notation>1</skos:notation>
     <skos:prefLabel xml:lang="pt-BR">Erradicação da Pobreza</skos:prefLabel>
     <skos:prefLabel xml:lang="en">No poverty</skos:prefLabel>

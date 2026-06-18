@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix tr: <https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/> .
+@prefix tr: <https://dcat-br.github.io/vcr-br/tipo-recurso/> .
 
 #######################################################################
 # Tipo de Recurso (DCAT-BR)
@@ -23,7 +23,7 @@ tr:
   ] ;
   dc:license <https://creativecommons.org/licenses/by/4.0/> ;
   owl:versionInfo "2025-12-12" ;
-  owl:versionIRI <https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/2025-12-12/> ;
+  owl:versionIRI <https://dcat-br.github.io/vcr-br/tipo-recurso/2025-12-12/> ;
   skos:hasTopConcept tr:API, tr:DADOS, tr:DICIONARIO_DE_DADOS, tr:DOCUMENTACAO, tr:OUTRO ;
 .
 

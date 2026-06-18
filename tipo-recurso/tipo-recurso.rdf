@@ -7,7 +7,7 @@
   xmlns:dc11="http://purl.org/dc/elements/1.1/"
   xmlns:foaf="http://xmlns.com/foaf/0.1/">
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/tipo-recurso/">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 
@@ -32,19 +32,19 @@
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
 
     <owl:versionInfo>2025-12-12</owl:versionInfo>
-    <owl:versionIRI rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/2025-12-12/"/>
+    <owl:versionIRI rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/2025-12-12/"/>
 
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DADOS"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DICIONARIO_DE_DADOS"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DOCUMENTACAO"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/API"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/OUTRO"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/DADOS"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/DICIONARIO_DE_DADOS"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/DOCUMENTACAO"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/API"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/OUTRO"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/API">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/tipo-recurso/API">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
     <skos:notation>API</skos:notation>
     <dcterms:identifier>API</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">API</skos:prefLabel>
@@ -53,10 +53,10 @@
     <skos:definition xml:lang="en">Application Programming Interface (API) for programmatic access to data.</skos:definition>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DADOS">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/tipo-recurso/DADOS">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
     <skos:notation>DADOS</skos:notation>
     <dcterms:identifier>DADOS</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Dados</skos:prefLabel>
@@ -65,10 +65,10 @@
     <skos:definition xml:lang="en">Data type resource, containing structured or unstructured information.</skos:definition>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DICIONARIO_DE_DADOS">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/tipo-recurso/DICIONARIO_DE_DADOS">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
     <skos:notation>DICIONARIO_DE_DADOS</skos:notation>
     <dcterms:identifier>DICIONARIO_DE_DADOS</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Dicionário de Dados</skos:prefLabel>
@@ -77,10 +77,10 @@
     <skos:definition xml:lang="en">Data dictionary that describes the structure and meaning of the fields in a dataset.</skos:definition>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DOCUMENTACAO">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/tipo-recurso/DOCUMENTACAO">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
     <skos:notation>DOCUMENTACAO</skos:notation>
     <dcterms:identifier>DOCUMENTACAO</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Documentação</skos:prefLabel>
@@ -89,10 +89,10 @@
     <skos:definition xml:lang="en">Documentation related to the dataset, including manuals, guides and specifications.</skos:definition>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/OUTRO">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/tipo-recurso/OUTRO">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/tipo-recurso/"/>
     <skos:notation>OUTRO</skos:notation>
     <dcterms:identifier>OUTRO</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Outro</skos:prefLabel>
