@@ -1,0 +1,293 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+
+@prefix vcrfr: <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> .
+@prefix freq:  <https://dcat-br.github.io/dcat-br/docs/vocabularies/freq/> .
+
+#######################################################################
+# VCR-FR — Frequência (DCAT-BR)
+#######################################################################
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/>
+  a owl:Ontology, skos:ConceptScheme ;
+  dct:title "Vocabulário Controlado de Referência — Frequência (VCR-FR)"@pt-BR ;
+  dct:title "Reference Controlled Vocabulary — Frequency (VCR-FR)"@en ;
+  dct:description "Vocabulário controlado para descrever a frequência/periodicidade de atualização de conjuntos de dados no perfil DCAT-BR."@pt-BR ;
+  dct:description "Controlled vocabulary to describe the update frequency/periodicity of datasets in the DCAT-BR profile."@en ;
+  dct:source <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  dct:issued "2025-12-18"^^xsd:date ;
+  owl:versionInfo "1.0.0" ;
+  skos:hasTopConcept vcrfr:ANUAL, vcrfr:BIENAL, vcrfr:BIMESTRAL, vcrfr:CONTINUO, vcrfr:DIARIA,
+    vcrfr:IRREGULAR, vcrfr:MENSAL, vcrfr:OUTRAS, vcrfr:QUADRIMESTRAL, vcrfr:QUINZENAL,
+    vcrfr:SEMANAL, vcrfr:SEMESTRAL, vcrfr:SEMIMENSAL, vcrfr:SEMISSEMANAL, vcrfr:SOB_DEMANDA,
+    vcrfr:TRES_VEZES_AO_ANO, vcrfr:TRES_VEZES_POR_MES, vcrfr:TRES_VEZES_POR_SEMANA,
+    vcrfr:TRIENAL, vcrfr:TRIMESTRAL ;
+.
+
+#######################################################################
+# Termos VCR-FR + mapeamento (skos:exactMatch) para vocabulário freq
+#######################################################################
+
+vcrfr:ANUAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "ANUAL" ;
+  dct:identifier "ANUAL" ;
+  skos:prefLabel "Anual"@pt-BR ;
+  skos:prefLabel "Annual"@en ;
+  skos:definition "O evento ocorre uma vez por ano."@pt-BR ;
+  skos:definition "The event occurs once a year."@en ;
+  skos:exactMatch freq:annual ;
+.
+
+vcrfr:BIENAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "BIENAL" ;
+  dct:identifier "BIENAL" ;
+  skos:prefLabel "Bienal"@pt-BR ;
+  skos:prefLabel "Biennial"@en ;
+  skos:definition "O evento ocorre a cada dois anos."@pt-BR ;
+  skos:definition "The event occurs every two years."@en ;
+  skos:exactMatch freq:biennial ;
+.
+
+vcrfr:BIMESTRAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "BIMESTRAL" ;
+  dct:identifier "BIMESTRAL" ;
+  skos:prefLabel "Bimestral"@pt-BR ;
+  skos:prefLabel "Bimonthly"@en ;
+  skos:definition "O evento ocorre a cada dois meses."@pt-BR ;
+  skos:definition "The event occurs every two months."@en ;
+  skos:exactMatch freq:bimonthly ;
+.
+
+vcrfr:CONTINUO
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "CONTINUO" ;
+  dct:identifier "CONTINUO" ;
+  skos:prefLabel "Contínuo"@pt-BR ;
+  skos:prefLabel "Continuous"@en ;
+  skos:definition "O evento se repete de forma contínua, sem interrupção."@pt-BR ;
+  skos:definition "The event repeats without interruption."@en ;
+  skos:exactMatch freq:continuous ;
+.
+
+vcrfr:DIARIA
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "DIARIA" ;
+  dct:identifier "DIARIA" ;
+  skos:prefLabel "Diária"@pt-BR ;
+  skos:prefLabel "Daily"@en ;
+  skos:definition "O evento ocorre uma vez por dia."@pt-BR ;
+  skos:definition "The event occurs once a day."@en ;
+  skos:exactMatch freq:daily ;
+.
+
+vcrfr:IRREGULAR
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "IRREGULAR" ;
+  dct:identifier "IRREGULAR" ;
+  skos:prefLabel "Irregular"@pt-BR ;
+  skos:prefLabel "Irregular"@en ;
+  skos:definition "O evento ocorre em intervalos irregulares."@pt-BR ;
+  skos:definition "The event occurs at uneven intervals."@en ;
+  skos:exactMatch freq:irregular ;
+.
+
+vcrfr:MENSAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "MENSAL" ;
+  dct:identifier "MENSAL" ;
+  skos:prefLabel "Mensal"@pt-BR ;
+  skos:prefLabel "Monthly"@en ;
+  skos:definition "O evento ocorre uma vez por mês."@pt-BR ;
+  skos:definition "The event occurs once a month."@en ;
+  skos:exactMatch freq:monthly ;
+.
+
+vcrfr:OUTRAS
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "OUTRAS" ;
+  dct:identifier "OUTRAS" ;
+  skos:prefLabel "Outras"@pt-BR ;
+  skos:prefLabel "Others"@en ;
+  skos:definition "Outras frequências não especificadas."@pt-BR ;
+  skos:definition "Other unspecified frequencies."@en ;
+  skos:exactMatch freq:others ;
+.
+
+vcrfr:QUADRIMESTRAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "QUADRIMESTRAL" ;
+  dct:identifier "QUADRIMESTRAL" ;
+  skos:prefLabel "Quadrimestral"@pt-BR ;
+  skos:prefLabel "Quadrimestral"@en ;
+  skos:definition "O evento ocorre a cada quatro meses."@pt-BR ;
+  skos:definition "The event occurs every four months."@en ;
+  skos:exactMatch freq:quadrimestral ;
+.
+
+vcrfr:QUINZENAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "QUINZENAL" ;
+  dct:identifier "QUINZENAL" ;
+  skos:prefLabel "Quinzenal"@pt-BR ;
+  skos:prefLabel "Biweekly"@en ;
+  skos:definition "O evento ocorre a cada duas semanas."@pt-BR ;
+  skos:definition "The event occurs every two weeks."@en ;
+  skos:exactMatch freq:biweekly ;
+.
+
+vcrfr:SEMANAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "SEMANAL" ;
+  dct:identifier "SEMANAL" ;
+  skos:prefLabel "Semanal"@pt-BR ;
+  skos:prefLabel "Weekly"@en ;
+  skos:definition "O evento ocorre uma vez por semana."@pt-BR ;
+  skos:definition "The event occurs once a week."@en ;
+  skos:exactMatch freq:weekly ;
+.
+
+vcrfr:SEMESTRAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "SEMESTRAL" ;
+  dct:identifier "SEMESTRAL" ;
+  skos:prefLabel "Semestral"@pt-BR ;
+  skos:prefLabel "Semiannual"@en ;
+  skos:definition "O evento ocorre duas vezes por ano."@pt-BR ;
+  skos:definition "The event occurs twice a year."@en ;
+  skos:exactMatch freq:semiannual ;
+.
+
+vcrfr:SEMIMENSAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "SEMIMENSAL" ;
+  dct:identifier "SEMIMENSAL" ;
+  skos:prefLabel "Semimensal"@pt-BR ;
+  skos:prefLabel "Semimonthly"@en ;
+  skos:definition "O evento ocorre duas vezes por mês."@pt-BR ;
+  skos:definition "The event occurs twice a month."@en ;
+  skos:exactMatch freq:semimonthly ;
+.
+
+vcrfr:SEMISSEMANAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "SEMISSEMANAL" ;
+  dct:identifier "SEMISSEMANAL" ;
+  skos:prefLabel "Semissemanal"@pt-BR ;
+  skos:prefLabel "Semiweekly"@en ;
+  skos:definition "O evento ocorre duas vezes por semana."@pt-BR ;
+  skos:definition "The event occurs twice a week."@en ;
+  skos:exactMatch freq:semiweekly ;
+.
+
+vcrfr:SOB_DEMANDA
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "SOB_DEMANDA" ;
+  dct:identifier "SOB_DEMANDA" ;
+  skos:prefLabel "Sob demanda"@pt-BR ;
+  skos:prefLabel "On demand"@en ;
+  skos:definition "O evento ocorre sob demanda, quando necessário."@pt-BR ;
+  skos:definition "The event occurs on demand, when necessary."@en ;
+  skos:exactMatch freq:onDemand ;
+.
+
+vcrfr:TRES_VEZES_AO_ANO
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "TRES_VEZES_AO_ANO" ;
+  dct:identifier "TRES_VEZES_AO_ANO" ;
+  skos:prefLabel "Três vezes ao ano"@pt-BR ;
+  skos:prefLabel "Three times a year"@en ;
+  skos:definition "O evento ocorre três vezes por ano."@pt-BR ;
+  skos:definition "The event occurs three times a year."@en ;
+  skos:exactMatch freq:threeTimesAYear ;
+.
+
+vcrfr:TRES_VEZES_POR_MES
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "TRES_VEZES_POR_MES" ;
+  dct:identifier "TRES_VEZES_POR_MES" ;
+  skos:prefLabel "Três vezes por mês"@pt-BR ;
+  skos:prefLabel "Three times a month"@en ;
+  skos:definition "O evento ocorre três vezes por mês."@pt-BR ;
+  skos:definition "The event occurs three times a month."@en ;
+  skos:exactMatch freq:threeTimesAMonth ;
+.
+
+vcrfr:TRES_VEZES_POR_SEMANA
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "TRES_VEZES_POR_SEMANA" ;
+  dct:identifier "TRES_VEZES_POR_SEMANA" ;
+  skos:prefLabel "Três vezes por semana"@pt-BR ;
+  skos:prefLabel "Three times a week"@en ;
+  skos:definition "O evento ocorre três vezes por semana."@pt-BR ;
+  skos:definition "The event occurs three times a week."@en ;
+  skos:exactMatch freq:threeTimesAWeek ;
+.
+
+vcrfr:TRIENAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "TRIENAL" ;
+  dct:identifier "TRIENAL" ;
+  skos:prefLabel "Trienal"@pt-BR ;
+  skos:prefLabel "Triennial"@en ;
+  skos:definition "O evento ocorre a cada três anos."@pt-BR ;
+  skos:definition "The event occurs every three years."@en ;
+  skos:exactMatch freq:triennial ;
+.
+
+vcrfr:TRIMESTRAL
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-FR/> ;
+  skos:notation "TRIMESTRAL" ;
+  dct:identifier "TRIMESTRAL" ;
+  skos:prefLabel "Trimestral"@pt-BR ;
+  skos:prefLabel "Quarterly"@en ;
+  skos:definition "O evento ocorre a cada três meses."@pt-BR ;
+  skos:definition "The event occurs every three months."@en ;
+  skos:exactMatch freq:quarterly ;
+.

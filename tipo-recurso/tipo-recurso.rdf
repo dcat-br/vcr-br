@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc11="http://purl.org/dc/elements/1.1/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+
+    <dc11:title xml:lang="pt-BR">Vocabulário Controlado de Tipo de Recurso - DCAT-BR</dc11:title>
+    <dc11:title xml:lang="en">Resource Type Controlled Vocabulary (DCAT-BR)</dc11:title>
+
+    <dc11:description xml:lang="pt-BR">
+      Vocabulário SKOS para classificar o tipo de recurso disponibilizado em uma distribuição de dados em catálogos de dados públicos no Brasil.
+    </dc11:description>
+    <dc11:description xml:lang="en">
+      SKOS vocabulary to classify the type of resource made available in a data distribution in public data catalogs in Brazil.
+    </dc11:description>
+
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-12</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-12</dcterms:modified>
+
+    <dcterms:creator rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <foaf:name>Grupo de Trabalho DCAT-BR</foaf:name>
+    </dcterms:creator>
+
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <owl:versionInfo>2025-12-12</owl:versionInfo>
+    <owl:versionIRI rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/2025-12-12/"/>
+
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DADOS"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DICIONARIO_DE_DADOS"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DOCUMENTACAO"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/API"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/OUTRO"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/API">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:notation>API</skos:notation>
+    <dcterms:identifier>API</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">API</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">API</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Interface de Programação de Aplicações (API) para acesso programático aos dados.</skos:definition>
+    <skos:definition xml:lang="en">Application Programming Interface (API) for programmatic access to data.</skos:definition>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DADOS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:notation>DADOS</skos:notation>
+    <dcterms:identifier>DADOS</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Dados</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Data</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Recurso do tipo dados, contendo informações estruturadas ou não estruturadas.</skos:definition>
+    <skos:definition xml:lang="en">Data type resource, containing structured or unstructured information.</skos:definition>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DICIONARIO_DE_DADOS">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:notation>DICIONARIO_DE_DADOS</skos:notation>
+    <dcterms:identifier>DICIONARIO_DE_DADOS</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Dicionário de Dados</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Data Dictionary</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Dicionário de dados que descreve a estrutura e o significado dos campos de um conjunto de dados.</skos:definition>
+    <skos:definition xml:lang="en">Data dictionary that describes the structure and meaning of the fields in a dataset.</skos:definition>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/DOCUMENTACAO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:notation>DOCUMENTACAO</skos:notation>
+    <dcterms:identifier>DOCUMENTACAO</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Documentação</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Documentation</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Documentação relacionada ao conjunto de dados, incluindo manuais, guias e especificações.</skos:definition>
+    <skos:definition xml:lang="en">Documentation related to the dataset, including manuals, guides and specifications.</skos:definition>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/OUTRO">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/"/>
+    <skos:notation>OUTRO</skos:notation>
+    <dcterms:identifier>OUTRO</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Outro</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Other</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Outro tipo de recurso não especificado nas categorias anteriores.</skos:definition>
+    <skos:definition xml:lang="en">Other type of resource not specified in the previous categories.</skos:definition>
+  </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,115 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix vcrce: <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/> .
+
+#######################################################################
+# VCR-CE — Cobertura Espacial (DCAT-BR)
+#######################################################################
+
+vcrce:
+  a skos:ConceptScheme, owl:Ontology ;
+  dc11:title "Vocabulário Controlado de Cobertura Espacial (VCR-CE) - DCAT-BR"@pt-BR, "Spatial Coverage Controlled Vocabulary (VCR-CE) - DCAT-BR"@en ;
+  dc11:description "Vocabulário SKOS para descrever a cobertura espacial de distribuições de dados em catálogos de dados públicos no Brasil, classificando a abrangência territorial em níveis nacional, estadual, municipal, por região geográfica e internacional."@pt-BR, "SKOS vocabulary to describe the spatial coverage of data distributions in public data catalogs in Brazil, classifying territorial coverage at national, state, municipal, regional and international levels."@en ;
+  dc:issued "2025-12-12"^^xsd:date ;
+  dc:modified "2026-06-17"^^xsd:date ;
+  dc:creator [ a foaf:Organization ; foaf:name "Grupo de Trabalho DCAT-BR" ] ;
+  dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+  owl:versionInfo "2026-06-17" ;
+  owl:versionIRI <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/2026-06-17/> ;
+  skos:hasTopConcept <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/brasil>, <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/estado_distrito_federal>, <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/municipio>, <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_norte>, <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_nordeste>, <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_centro_oeste>, <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_sudeste>, <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_sul>, <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/internacional> ;
+ .
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/brasil>
+  a skos:Concept ;
+  skos:inScheme vcrce: ;
+  skos:topConceptOf vcrce: ;
+  skos:notation "BRASIL" ;
+  dc:identifier "BRASIL" ;
+  skos:prefLabel "Brasil"@pt-BR, "Brazil"@en ;
+  skos:definition "Cobertura espacial de abrangência nacional, referente a dados que se aplicam a todo o território brasileiro."@pt-BR, "National spatial coverage, referring to data that applies to the entire Brazilian territory."@en ;
+ .
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/estado_distrito_federal>
+  a skos:Concept ;
+  skos:inScheme vcrce: ;
+  skos:topConceptOf vcrce: ;
+  skos:notation "ESTADO_DISTRITO_FEDERAL" ;
+  dc:identifier "ESTADO_DISTRITO_FEDERAL" ;
+  skos:prefLabel "Estado/Distrito Federal"@pt-BR, "State/Federal District"@en ;
+  skos:definition "Cobertura espacial de abrangência estadual ou distrital, referente a dados que se aplicam a um ou mais estados brasileiros ou ao Distrito Federal."@pt-BR, "State-level or Federal District spatial coverage, referring to data that applies to one or more Brazilian states or to the Federal District."@en ;
+ .
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/municipio>
+  a skos:Concept ;
+  skos:inScheme vcrce: ;
+  skos:topConceptOf vcrce: ;
+  skos:notation "MUNICIPIO" ;
+  dc:identifier "MUNICIPIO" ;
+  skos:prefLabel "Município"@pt-BR, "Municipality"@en ;
+  skos:definition "Cobertura espacial de abrangência municipal, referente a dados que se aplicam a um ou mais municípios brasileiros."@pt-BR, "Municipal spatial coverage, referring to data that applies to one or more Brazilian municipalities."@en ;
+ .
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_norte>
+  a skos:Concept ;
+  skos:inScheme vcrce: ;
+  skos:topConceptOf vcrce: ;
+  skos:notation "REGIAO_NORTE" ;
+  dc:identifier "REGIAO_NORTE" ;
+  skos:prefLabel "Região Norte"@pt-BR, "North Region"@en ;
+  skos:definition "Cobertura espacial da Região Norte do Brasil, conforme divisão regional do IBGE."@pt-BR, "Spatial coverage of the North Region of Brazil, according to the IBGE regional division."@en ;
+ .
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_nordeste>
+  a skos:Concept ;
+  skos:inScheme vcrce: ;
+  skos:topConceptOf vcrce: ;
+  skos:notation "REGIAO_NORDESTE" ;
+  dc:identifier "REGIAO_NORDESTE" ;
+  skos:prefLabel "Região Nordeste"@pt-BR, "Northeast Region"@en ;
+  skos:definition "Cobertura espacial da Região Nordeste do Brasil, conforme divisão regional do IBGE."@pt-BR, "Spatial coverage of the Northeast Region of Brazil, according to the IBGE regional division."@en ;
+ .
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_centro_oeste>
+  a skos:Concept ;
+  skos:inScheme vcrce: ;
+  skos:topConceptOf vcrce: ;
+  skos:notation "REGIAO_CENTRO_OESTE" ;
+  dc:identifier "REGIAO_CENTRO_OESTE" ;
+  skos:prefLabel "Região Centro-Oeste"@pt-BR, "Central-West Region"@en ;
+  skos:definition "Cobertura espacial da Região Centro-Oeste do Brasil, conforme divisão regional do IBGE."@pt-BR, "Spatial coverage of the Central-West Region of Brazil, according to the IBGE regional division."@en ;
+ .
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_sudeste>
+  a skos:Concept ;
+  skos:inScheme vcrce: ;
+  skos:topConceptOf vcrce: ;
+  skos:notation "REGIAO_SUDESTE" ;
+  dc:identifier "REGIAO_SUDESTE" ;
+  skos:prefLabel "Região Sudeste"@pt-BR, "Southeast Region"@en ;
+  skos:definition "Cobertura espacial da Região Sudeste do Brasil, conforme divisão regional do IBGE."@pt-BR, "Spatial coverage of the Southeast Region of Brazil, according to the IBGE regional division."@en ;
+ .
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/regiao_sul>
+  a skos:Concept ;
+  skos:inScheme vcrce: ;
+  skos:topConceptOf vcrce: ;
+  skos:notation "REGIAO_SUL" ;
+  dc:identifier "REGIAO_SUL" ;
+  skos:prefLabel "Região Sul"@pt-BR, "South Region"@en ;
+  skos:definition "Cobertura espacial da Região Sul do Brasil, conforme divisão regional do IBGE."@pt-BR, "Spatial coverage of the South Region of Brazil, according to the IBGE regional division."@en ;
+ .
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-CE/internacional>
+  a skos:Concept ;
+  skos:inScheme vcrce: ;
+  skos:topConceptOf vcrce: ;
+  skos:notation "INTERNACIONAL" ;
+  dc:identifier "INTERNACIONAL" ;
+  skos:prefLabel "Internacional"@pt-BR, "International"@en ;
+  skos:definition "Cobertura espacial de abrangência internacional, referente a dados que se aplicam a territórios ou contextos fora do Brasil."@pt-BR, "International spatial coverage, referring to data that applies to territories or contexts outside Brazil."@en ;
+ .

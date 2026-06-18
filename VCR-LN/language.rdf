@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dc11="http://purl.org/dc/elements/1.1/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <rdf:Description rdf:about="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+
+    <dc11:title xml:lang="pt-BR">Vocabulário Controlado de Linguagem (VCR-LN) - DCAT-BR</dc11:title>
+    <dc11:title xml:lang="en">Language Controlled Vocabulary (VCR-LN) - DCAT-BR</dc11:title>
+
+    <dc11:description xml:lang="pt-BR">
+      Vocabulário SKOS para indicar a linguagem de distribuições de dados em catálogos de dados públicos no Brasil, com termos alinhados ao padrão ISO 639-1 mantido pela Library of Congress.
+    </dc11:description>
+    <dc11:description xml:lang="en">
+      SKOS vocabulary to indicate the language of data distributions in public data catalogs in Brazil, with terms aligned to the ISO 639-1 standard maintained by the Library of Congress.
+    </dc11:description>
+
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-12-12</dcterms:issued>
+    <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-18</dcterms:modified>
+
+    <dcterms:creator rdf:parseType="Resource">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <foaf:name>Grupo de Trabalho DCAT-BR</foaf:name>
+    </dcterms:creator>
+
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:source rdf:resource="http://id.loc.gov/vocabulary/iso639-1"/>
+
+    <owl:versionInfo>2026-06-18</owl:versionInfo>
+    <owl:versionIRI rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/2026-06-18/"/>
+
+    <skos:hasTopConcept rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+    <skos:hasTopConcept rdf:resource="http://id.loc.gov/vocabulary/iso639-1/pt"/>
+    <skos:hasTopConcept rdf:resource="http://id.loc.gov/vocabulary/iso639-1/es"/>
+    <skos:hasTopConcept rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+    <skos:hasTopConcept rdf:resource="http://id.loc.gov/vocabulary/iso639-1/de"/>
+    <skos:hasTopConcept rdf:resource="http://id.loc.gov/vocabulary/iso639-1/it"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/en">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:notation>en</skos:notation>
+    <dcterms:identifier>en</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Inglês</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">English</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Linguagem inglesa conforme código ISO 639-1.</skos:definition>
+    <skos:definition xml:lang="en">English language according to ISO 639-1 code.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/iso639-2/eng"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/languages/eng"/>
+    <dcterms:source rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/pt">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:notation>pt</skos:notation>
+    <dcterms:identifier>pt</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Português</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Portuguese</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Linguagem portuguesa conforme código ISO 639-1.</skos:definition>
+    <skos:definition xml:lang="en">Portuguese language according to ISO 639-1 code.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/iso639-2/por"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/languages/por"/>
+    <dcterms:source rdf:resource="http://id.loc.gov/vocabulary/iso639-1/pt"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/es">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:notation>es</skos:notation>
+    <dcterms:identifier>es</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Espanhol</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Spanish</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Linguagem espanhola conforme código ISO 639-1.</skos:definition>
+    <skos:definition xml:lang="en">Spanish language according to ISO 639-1 code.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/iso639-2/spa"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/languages/spa"/>
+    <dcterms:source rdf:resource="http://id.loc.gov/vocabulary/iso639-1/es"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/fr">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:notation>fr</skos:notation>
+    <dcterms:identifier>fr</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Francês</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">French</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Linguagem francesa conforme código ISO 639-1.</skos:definition>
+    <skos:definition xml:lang="en">French language according to ISO 639-1 code.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fra"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/iso639-2/fre"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/languages/fre"/>
+    <dcterms:source rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/de">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:notation>de</skos:notation>
+    <dcterms:identifier>de</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Alemão</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">German</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Linguagem alemã conforme código ISO 639-1.</skos:definition>
+    <skos:definition xml:lang="en">German language according to ISO 639-1 code.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/iso639-2/deu"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ger"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/languages/ger"/>
+    <dcterms:source rdf:resource="http://id.loc.gov/vocabulary/iso639-1/de"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://id.loc.gov/vocabulary/iso639-1/it">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/"/>
+    <skos:notation>it</skos:notation>
+    <dcterms:identifier>it</dcterms:identifier>
+    <skos:prefLabel xml:lang="pt-BR">Italiano</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Italian</skos:prefLabel>
+    <skos:definition xml:lang="pt-BR">Linguagem italiana conforme código ISO 639-1.</skos:definition>
+    <skos:definition xml:lang="en">Italian language according to ISO 639-1 code.</skos:definition>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ita"/>
+    <skos:exactMatch rdf:resource="http://id.loc.gov/vocabulary/languages/ita"/>
+    <dcterms:source rdf:resource="http://id.loc.gov/vocabulary/iso639-1/it"/>
+  </rdf:Description>
+
+</rdf:RDF>

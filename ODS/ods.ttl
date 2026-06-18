@@ -1,0 +1,216 @@
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+
+@prefix ods: <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> .
+
+#######################################################################
+# ODS — Objetivos de Desenvolvimento Sustentável (DCAT-BR)
+#######################################################################
+
+<https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/>
+  a owl:Ontology, skos:ConceptScheme ;
+  dct:title "Vocabulário Controlado — Objetivos de Desenvolvimento Sustentável (ODS)"@pt-BR ;
+  dct:title "Controlled Vocabulary — Sustainable Development Goals (SDGs)"@en ;
+  dct:description "Vocabulário controlado para indicar a relação de conjuntos de dados com os Objetivos de Desenvolvimento Sustentável da Agenda 2030 no perfil DCAT-BR."@pt-BR ;
+  dct:description "Controlled vocabulary to indicate the relationship of datasets with the Sustainable Development Goals of the 2030 Agenda in the DCAT-BR profile."@en ;
+  dct:source <https://sdgs.un.org/goals> ;
+  dct:issued "2025-12-12"^^xsd:date ;
+  owl:versionInfo "1.0.0" ;
+  skos:hasTopConcept
+    ods:erradicacao_da_pobreza,
+    ods:fome_zero_e_agricultura_sustentavel,
+    ods:saude_e_bem-estar,
+    ods:educacao_de_qualidade,
+    ods:igualdade_de_genero,
+    ods:agua_limpa_e_saneamento,
+    ods:energia_limpa_e_acessivel,
+    ods:trabalho_decente_e_crescimento_economico,
+    ods:industria_inovacao_e_infraestrutura,
+    ods:reducao_das_desigualdades,
+    ods:cidades_e_comunidades_sustentaveis,
+    ods:consumo_e_producao_sustentaveis,
+    ods:acao_contra_a_mudanca_global_do_clima,
+    ods:vida_na_agua,
+    ods:vida_terrestre,
+    ods:paz_justica_e_instituicoes_eficazes,
+    ods:parcerias_e_meios_de_implementacao ;
+.
+
+#######################################################################
+# Termos (URIs DCAT-BR) + mapeamento (skos:exactMatch) para ODS ONU
+#######################################################################
+
+ods:erradicacao_da_pobreza
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "1" ;
+  skos:prefLabel "Erradicação da Pobreza"@pt-BR ;
+  skos:prefLabel "No poverty"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/1> ;
+.
+
+ods:fome_zero_e_agricultura_sustentavel
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "2" ;
+  skos:prefLabel "Fome Zero e Agricultura Sustentável"@pt-BR ;
+  skos:prefLabel "Zero hunger"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/2> ;
+.
+
+ods:saude_e_bem-estar
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "3" ;
+  skos:prefLabel "Saúde e Bem-Estar"@pt-BR ;
+  skos:prefLabel "Good health and well-being"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/3> ;
+.
+
+ods:educacao_de_qualidade
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "4" ;
+  skos:prefLabel "Educação de Qualidade"@pt-BR ;
+  skos:prefLabel "Quality education"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/4> ;
+.
+
+ods:igualdade_de_genero
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "5" ;
+  skos:prefLabel "Igualdade de Gênero"@pt-BR ;
+  skos:prefLabel "Gender equality"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/5> ;
+.
+
+ods:agua_limpa_e_saneamento
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "6" ;
+  skos:prefLabel "Água Limpa e Saneamento"@pt-BR ;
+  skos:prefLabel "Clean water and sanitation"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/6> ;
+.
+
+ods:energia_limpa_e_acessivel
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "7" ;
+  skos:prefLabel "Energia Limpa e Acessível"@pt-BR ;
+  skos:prefLabel "Affordable and clean energy"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/7> ;
+.
+
+ods:trabalho_decente_e_crescimento_economico
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "8" ;
+  skos:prefLabel "Trabalho Decente e Crescimento Econômico"@pt-BR ;
+  skos:prefLabel "Decent work and economic growth"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/8> ;
+.
+
+ods:industria_inovacao_e_infraestrutura
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "9" ;
+  skos:prefLabel "Indústria, Inovação e Infraestrutura"@pt-BR ;
+  skos:prefLabel "Industry, innovation and infrastructure"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/9> ;
+.
+
+ods:reducao_das_desigualdades
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "10" ;
+  skos:prefLabel "Redução das Desigualdades"@pt-BR ;
+  skos:prefLabel "Reduced inequalities"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/10> ;
+.
+
+ods:cidades_e_comunidades_sustentaveis
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "11" ;
+  skos:prefLabel "Cidades e Comunidades Sustentáveis"@pt-BR ;
+  skos:prefLabel "Sustainable cities and communities"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/11> ;
+.
+
+ods:consumo_e_producao_sustentaveis
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "12" ;
+  skos:prefLabel "Consumo e Produção Sustentáveis"@pt-BR ;
+  skos:prefLabel "Responsible consumption and production"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/12> ;
+.
+
+ods:acao_contra_a_mudanca_global_do_clima
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "13" ;
+  skos:prefLabel "Ação contra a Mudança Global do Clima"@pt-BR ;
+  skos:prefLabel "Climate action"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/13> ;
+.
+
+ods:vida_na_agua
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "14" ;
+  skos:prefLabel "Vida na Água"@pt-BR ;
+  skos:prefLabel "Life below water"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/14> ;
+.
+
+ods:vida_terrestre
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "15" ;
+  skos:prefLabel "Vida Terrestre"@pt-BR ;
+  skos:prefLabel "Life on land"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/15> ;
+.
+
+ods:paz_justica_e_instituicoes_eficazes
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "16" ;
+  skos:prefLabel "Paz, Justiça e Instituições Eficazes"@pt-BR ;
+  skos:prefLabel "Peace, justice and strong institutions"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/16> ;
+.
+
+ods:parcerias_e_meios_de_implementacao
+  a skos:Concept ;
+  skos:inScheme <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:topConceptOf <https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/> ;
+  skos:notation "17" ;
+  skos:prefLabel "Parcerias e Meios de Implementação"@pt-BR ;
+  skos:prefLabel "Partnerships for the goals"@en ;
+  skos:exactMatch <http://metadata.un.org/sdg/17> ;
+.

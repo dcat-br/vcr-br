@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <title>Vocabulário Controlado - Objetivos de Desenvolvimento Sustentável (ODS)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ReSpec W3C -->
+  <script src="https://www.w3.org/Tools/respec/respec-w3c" class="remove"></script>
+  <script class="remove">
+    var respecConfig = {
+      specStatus: "base",
+      shortName: "ods",
+      thisVersion: "https://dcat-br.github.io/dcat-br/docs/vocabularies/ODS/",
+      latestVersion: "https://dcat-br.github.io/dcat-br/docs/vocabularies/ODS/",
+      edDraftURI: "https://dcat-br.github.io/dcat-br/docs/vocabularies/ODS/",
+      publishDate: "2025-12-12",
+      previousPublishDate: "2025-12-12",
+      previousMaturity: "base",
+      editors: [
+        {
+          name: "Juliano Leonardo Soares",
+          company: "CPQD",
+          url: "https://www.linkedin.com/in/juliano-leonardo-soares/"
+        }
+      ],
+      github: "https://github.com/dcat-br/dcat-br",
+      license: "w3c-software-doc",
+      noRecTrack: true,
+      overrideStatus: true,
+      wg: "Grupo de Trabalho DCAT-BR",
+      wgURI: "https://dcat-br.github.io/dcat-br/v1.0/gt/",
+      wgPublicList: "dcat-br",
+      subjectPrefix: "[DCAT-BR]",
+      lint: {
+        "no-unused-dfns": false,
+        "required-sections": false
+      }
+    };
+  </script>
+</head>
+
+<body>
+  <section id="abstract">
+    <h2>Resumo</h2>
+    <p>
+      O Vocabulário Controlado de Objetivos de Desenvolvimento Sustentável (ODS) é usado para indicar
+      a relação de um conjunto de dados com um ou mais Objetivos de Desenvolvimento Sustentável da
+      Agenda 2030 das Nações Unidas, em catálogos de dados públicos no Brasil. Este vocabulário
+      define termos padronizados em português para os 17 ODS, facilitando a catalogação e a
+      descoberta de dados alinhados à agenda de desenvolvimento sustentável.
+    </p>
+  </section>
+
+  <section id="sotd">
+    <h2>Status deste documento</h2>
+    <p>
+      Este documento descreve o vocabulário controlado de ODS mantido pelo Grupo de Trabalho DCAT-BR.
+      Comentários e propostas de alteração devem ser enviados por meio do repositório público indicado
+      na seção de governança.
+    </p>
+  </section>
+
+  <section id="intro" class="informative">
+    <h2>Introdução</h2>
+    <p>
+      No perfil DCAT-BR, a associação de conjuntos de dados aos ODS é feita por meio de duas propriedades:
+    </p>
+    <ul>
+      <li><code>dcatbr:relacionadoODS</code> — indica se o conjunto de dados possui relação com ODS (<code>true</code> ou <code>false</code>);</li>
+      <li><code>dcatbr:ods</code> — quando há relação, indica um ou mais ODS associados (recomenda-se conceitos SKOS deste vocabulário).</li>
+    </ul>
+    <p>
+      Os termos deste vocabulário representam os 17 Objetivos de Desenvolvimento Sustentável da Agenda 2030,
+      com rótulos em português alinhados à denominação oficial utilizada no Brasil. Cada termo possui um
+      identificador URI estável sob a URI base do vocabulário.
+    </p>
+    <p>
+      <strong>Base:</strong> <a href="https://sdgs.un.org/goals" target="_blank">Agenda 2030 — ODS (ONU)</a><br>
+      <strong>URI Base:</strong> <code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/</code>
+    </p>
+    <p>
+      O vocabulário está disponível nos formatos Turtle, RDF/XML e CSV (consulte a seção
+      <a href="#formatos">Formatos Disponíveis</a>).
+    </p>
+  </section>
+
+  <section id="termos">
+    <h2>Termos do Vocabulário</h2>
+    <p>
+      O vocabulário ODS inclui os seguintes 17 termos, na ordem oficial da Agenda 2030:
+    </p>
+
+    <table class="def">
+      <thead>
+        <tr>
+          <th>ODS</th>
+          <th>Termo</th>
+          <th>Notação</th>
+          <th>URI</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>1</code></td>
+          <td><strong>Erradicação da Pobreza</strong></td>
+          <td><code>erradicacao_da_pobreza</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/erradicacao_da_pobreza</code></td>
+        </tr>
+        <tr>
+          <td><code>2</code></td>
+          <td><strong>Fome Zero e Agricultura Sustentável</strong></td>
+          <td><code>fome_zero_e_agricultura_sustentavel</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/fome_zero_e_agricultura_sustentavel</code></td>
+        </tr>
+        <tr>
+          <td><code>3</code></td>
+          <td><strong>Saúde e Bem-Estar</strong></td>
+          <td><code>saude_e_bem-estar</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/saude_e_bem-estar</code></td>
+        </tr>
+        <tr>
+          <td><code>4</code></td>
+          <td><strong>Educação de Qualidade</strong></td>
+          <td><code>educacao_de_qualidade</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/educacao_de_qualidade</code></td>
+        </tr>
+        <tr>
+          <td><code>5</code></td>
+          <td><strong>Igualdade de Gênero</strong></td>
+          <td><code>igualdade_de_genero</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/igualdade_de_genero</code></td>
+        </tr>
+        <tr>
+          <td><code>6</code></td>
+          <td><strong>Água Limpa e Saneamento</strong></td>
+          <td><code>agua_limpa_e_saneamento</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/agua_limpa_e_saneamento</code></td>
+        </tr>
+        <tr>
+          <td><code>7</code></td>
+          <td><strong>Energia Limpa e Acessível</strong></td>
+          <td><code>energia_limpa_e_acessivel</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/energia_limpa_e_acessivel</code></td>
+        </tr>
+        <tr>
+          <td><code>8</code></td>
+          <td><strong>Trabalho Decente e Crescimento Econômico</strong></td>
+          <td><code>trabalho_decente_e_crescimento_economico</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/trabalho_decente_e_crescimento_economico</code></td>
+        </tr>
+        <tr>
+          <td><code>9</code></td>
+          <td><strong>Indústria, Inovação e Infraestrutura</strong></td>
+          <td><code>industria_inovacao_e_infraestrutura</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/industria_inovacao_e_infraestrutura</code></td>
+        </tr>
+        <tr>
+          <td><code>10</code></td>
+          <td><strong>Redução das Desigualdades</strong></td>
+          <td><code>reducao_das_desigualdades</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/reducao_das_desigualdades</code></td>
+        </tr>
+        <tr>
+          <td><code>11</code></td>
+          <td><strong>Cidades e Comunidades Sustentáveis</strong></td>
+          <td><code>cidades_e_comunidades_sustentaveis</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/cidades_e_comunidades_sustentaveis</code></td>
+        </tr>
+        <tr>
+          <td><code>12</code></td>
+          <td><strong>Consumo e Produção Sustentáveis</strong></td>
+          <td><code>consumo_e_producao_sustentaveis</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/consumo_e_producao_sustentaveis</code></td>
+        </tr>
+        <tr>
+          <td><code>13</code></td>
+          <td><strong>Ação contra a Mudança Global do Clima</strong></td>
+          <td><code>acao_contra_a_mudanca_global_do_clima</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/acao_contra_a_mudanca_global_do_clima</code></td>
+        </tr>
+        <tr>
+          <td><code>14</code></td>
+          <td><strong>Vida na Água</strong></td>
+          <td><code>vida_na_agua</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/vida_na_agua</code></td>
+        </tr>
+        <tr>
+          <td><code>15</code></td>
+          <td><strong>Vida Terrestre</strong></td>
+          <td><code>vida_terrestre</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/vida_terrestre</code></td>
+        </tr>
+        <tr>
+          <td><code>16</code></td>
+          <td><strong>Paz, Justiça e Instituições Eficazes</strong></td>
+          <td><code>paz_justica_e_instituicoes_eficazes</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/paz_justica_e_instituicoes_eficazes</code></td>
+        </tr>
+        <tr>
+          <td><code>17</code></td>
+          <td><strong>Parcerias e Meios de Implementação</strong></td>
+          <td><code>parcerias_e_meios_de_implementacao</code></td>
+          <td><code>https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/parcerias_e_meios_de_implementacao</code></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="formatos" class="informative">
+    <h2>Formatos Disponíveis</h2>
+    <p>
+      O vocabulário está disponível nos seguintes formatos:
+    </p>
+
+    <table class="def">
+      <thead>
+        <tr>
+          <th>Formato</th>
+          <th>Descrição</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Turtle (TTL)</strong></td>
+          <td>Formato RDF em sintaxe Turtle, ideal para leitura humana e edição.</td>
+          <td>
+            <a href="ods.ttl" download>Baixar</a> |
+            <a href="ods.ttl" target="_blank">Visualizar</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>RDF/XML</strong></td>
+          <td>Formato RDF em XML, amplamente suportado por ferramentas RDF.</td>
+          <td>
+            <a href="ods.rdf" download>Baixar</a> |
+            <a href="ods.rdf" target="_blank">Visualizar</a>
+          </td>
+        </tr>
+        <tr>
+          <td><strong>CSV</strong></td>
+          <td>Lista de termos com URI e rótulo preferencial em português.</td>
+          <td>
+            <a href="ods.csv" download>Baixar</a> |
+            <a href="ods.csv" target="_blank">Visualizar</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="exemplo" class="informative">
+    <h2>Exemplo de Uso</h2>
+    <p>
+      Abaixo estão exemplos de como indicar relação com ODS em conjuntos de dados DCAT-BR:
+    </p>
+    <pre class="example" title="Conjunto de dados relacionado a um ODS">
+@prefix dcat: &lt;http://www.w3.org/ns/dcat#&gt; .
+@prefix dcatbr: &lt;http://purl.org/dcat-br/&gt; .
+
+&lt;https://exemplo.gov.br/dataset/1&gt;
+    a dcat:Dataset ;
+    dcatbr:relacionadoODS true ;
+    dcatbr:ods &lt;https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/educacao_de_qualidade&gt; .
+    </pre>
+
+    <pre class="example" title="Conjunto de dados relacionado a múltiplos ODS">
+@prefix dcat: &lt;http://www.w3.org/ns/dcat#&gt; .
+@prefix dcatbr: &lt;http://purl.org/dcat-br/&gt; .
+
+&lt;https://exemplo.gov.br/dataset/2&gt;
+    a dcat:Dataset ;
+    dcatbr:relacionadoODS true ;
+    dcatbr:ods &lt;https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/saude_e_bem-estar&gt; ,
+             &lt;https://dcat-br.github.io/dcat-br/docs/vocabularies/ods/reducao_das_desigualdades&gt; .
+    </pre>
+
+    <pre class="example" title="Conjunto de dados sem relação com ODS">
+@prefix dcat: &lt;http://www.w3.org/ns/dcat#&gt; .
+@prefix dcatbr: &lt;http://purl.org/dcat-br/&gt; .
+
+&lt;https://exemplo.gov.br/dataset/3&gt;
+    a dcat:Dataset ;
+    dcatbr:relacionadoODS false .
+    </pre>
+  </section>
+
+  <section id="referencias" class="informative">
+    <h2>Referências</h2>
+    <dl>
+      <dt><a href="https://www.w3.org/TR/vocab-dcat-3/">DCAT 3.0</a></dt>
+      <dd>Data Catalog Vocabulary (DCAT) - Version 3.0</dd>
+
+      <dt><a href="https://dcat-br.github.io/dcat-br/releases/1.0/">DCAT-BR 1.0</a></dt>
+      <dd>Perfil brasileiro de metadados para catálogos de dados públicos</dd>
+
+      <dt><a href="https://sdgs.un.org/goals">Agenda 2030 — Objetivos de Desenvolvimento Sustentável</a></dt>
+      <dd>Objetivos de Desenvolvimento Sustentável das Nações Unidas</dd>
+
+      <dt><a href="https://www.w3.org/2004/02/skos/">SKOS</a></dt>
+      <dd>Simple Knowledge Organization System — recomendado para representação dos termos ODS</dd>
+    </dl>
+  </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+        const links = document.querySelectorAll('a[href]');
+        links.forEach(function(link) {
+          const href = link.getAttribute('href');
+          if (href && (href.startsWith('http://') || href.startsWith('https://')) && !link.hasAttribute('target')) {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+          }
+        });
+      }, 1000);
+    });
+  </script>
+</body>
+</html>

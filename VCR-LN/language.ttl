@@ -1,0 +1,98 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix vcr-ln: <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/> .
+
+#######################################################################
+# Linguagem (VCR-LN) - ISO 639-1
+#######################################################################
+
+vcr-ln:
+  a skos:ConceptScheme, owl:Ontology ;
+  dc11:title "Vocabulário Controlado de Linguagem (VCR-LN) - DCAT-BR"@pt-BR, "Language Controlled Vocabulary (VCR-LN) - DCAT-BR"@en ;
+  dc11:description "Vocabulário SKOS para indicar a linguagem de distribuições de dados em catálogos de dados públicos no Brasil, com termos alinhados ao padrão ISO 639-1 mantido pela Library of Congress."@pt-BR, "SKOS vocabulary to indicate the language of data distributions in public data catalogs in Brazil, with terms aligned to the ISO 639-1 standard maintained by the Library of Congress."@en ;
+  dc:issued "2025-12-12"^^xsd:date ;
+  dc:modified "2026-06-18"^^xsd:date ;
+  dc:creator [ a foaf:Organization ; foaf:name "Grupo de Trabalho DCAT-BR" ] ;
+  dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+  dc:source <http://id.loc.gov/vocabulary/iso639-1> ;
+  owl:versionInfo "2026-06-18" ;
+  owl:versionIRI <https://dcat-br.github.io/dcat-br/docs/vocabularies/VCR-LN/2026-06-18/> ;
+  skos:hasTopConcept <http://id.loc.gov/vocabulary/iso639-1/en>, <http://id.loc.gov/vocabulary/iso639-1/pt>, <http://id.loc.gov/vocabulary/iso639-1/es>, <http://id.loc.gov/vocabulary/iso639-1/fr>, <http://id.loc.gov/vocabulary/iso639-1/de>, <http://id.loc.gov/vocabulary/iso639-1/it> ;
+ .
+
+<http://id.loc.gov/vocabulary/iso639-1/en>
+  a skos:Concept ;
+  skos:inScheme vcr-ln: ;
+  skos:topConceptOf vcr-ln: ;
+  skos:notation "en" ;
+  dc:identifier "en" ;
+  skos:prefLabel "Inglês"@pt-BR, "English"@en ;
+  skos:definition "Linguagem inglesa conforme código ISO 639-1."@pt-BR, "English language according to ISO 639-1 code."@en ;
+  skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/eng>, <http://id.loc.gov/vocabulary/languages/eng> ;
+  dc:source <http://id.loc.gov/vocabulary/iso639-1/en> ;
+ .
+
+<http://id.loc.gov/vocabulary/iso639-1/pt>
+  a skos:Concept ;
+  skos:inScheme vcr-ln: ;
+  skos:topConceptOf vcr-ln: ;
+  skos:notation "pt" ;
+  dc:identifier "pt" ;
+  skos:prefLabel "Português"@pt-BR, "Portuguese"@en ;
+  skos:definition "Linguagem portuguesa conforme código ISO 639-1."@pt-BR, "Portuguese language according to ISO 639-1 code."@en ;
+  skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/por>, <http://id.loc.gov/vocabulary/languages/por> ;
+  dc:source <http://id.loc.gov/vocabulary/iso639-1/pt> ;
+ .
+
+<http://id.loc.gov/vocabulary/iso639-1/es>
+  a skos:Concept ;
+  skos:inScheme vcr-ln: ;
+  skos:topConceptOf vcr-ln: ;
+  skos:notation "es" ;
+  dc:identifier "es" ;
+  skos:prefLabel "Espanhol"@pt-BR, "Spanish"@en ;
+  skos:definition "Linguagem espanhola conforme código ISO 639-1."@pt-BR, "Spanish language according to ISO 639-1 code."@en ;
+  skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/spa>, <http://id.loc.gov/vocabulary/languages/spa> ;
+  dc:source <http://id.loc.gov/vocabulary/iso639-1/es> ;
+ .
+
+<http://id.loc.gov/vocabulary/iso639-1/fr>
+  a skos:Concept ;
+  skos:inScheme vcr-ln: ;
+  skos:topConceptOf vcr-ln: ;
+  skos:notation "fr" ;
+  dc:identifier "fr" ;
+  skos:prefLabel "Francês"@pt-BR, "French"@en ;
+  skos:definition "Linguagem francesa conforme código ISO 639-1."@pt-BR, "French language according to ISO 639-1 code."@en ;
+  skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/fra>, <http://id.loc.gov/vocabulary/iso639-2/fre>, <http://id.loc.gov/vocabulary/languages/fre> ;
+  dc:source <http://id.loc.gov/vocabulary/iso639-1/fr> ;
+ .
+
+<http://id.loc.gov/vocabulary/iso639-1/de>
+  a skos:Concept ;
+  skos:inScheme vcr-ln: ;
+  skos:topConceptOf vcr-ln: ;
+  skos:notation "de" ;
+  dc:identifier "de" ;
+  skos:prefLabel "Alemão"@pt-BR, "German"@en ;
+  skos:definition "Linguagem alemã conforme código ISO 639-1."@pt-BR, "German language according to ISO 639-1 code."@en ;
+  skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/deu>, <http://id.loc.gov/vocabulary/iso639-2/ger>, <http://id.loc.gov/vocabulary/languages/ger> ;
+  dc:source <http://id.loc.gov/vocabulary/iso639-1/de> ;
+ .
+
+<http://id.loc.gov/vocabulary/iso639-1/it>
+  a skos:Concept ;
+  skos:inScheme vcr-ln: ;
+  skos:topConceptOf vcr-ln: ;
+  skos:notation "it" ;
+  dc:identifier "it" ;
+  skos:prefLabel "Italiano"@pt-BR, "Italian"@en ;
+  skos:definition "Linguagem italiana conforme código ISO 639-1."@pt-BR, "Italian language according to ISO 639-1 code."@en ;
+  skos:exactMatch <http://id.loc.gov/vocabulary/iso639-2/ita>, <http://id.loc.gov/vocabulary/languages/ita> ;
+  dc:source <http://id.loc.gov/vocabulary/iso639-1/it> ;
+ .

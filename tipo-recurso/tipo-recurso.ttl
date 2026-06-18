@@ -1,0 +1,78 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+@prefix tr: <https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/> .
+
+#######################################################################
+# Tipo de Recurso (DCAT-BR)
+#######################################################################
+
+tr:
+  a skos:ConceptScheme, owl:Ontology ;
+  dc11:title "Vocabulário Controlado de Tipo de Recurso - DCAT-BR"@pt-BR, "Resource Type Controlled Vocabulary (DCAT-BR)"@en ;
+  dc11:description "Vocabulário SKOS para classificar o tipo de recurso disponibilizado em uma distribuição de dados em catálogos de dados públicos no Brasil."@pt-BR, "SKOS vocabulary to classify the type of resource made available in a data distribution in public data catalogs in Brazil."@en ;
+  dc:issued "2025-12-12"^^xsd:date ;
+  dc:modified "2025-12-12"^^xsd:date ;
+  dc:creator [
+    a foaf:Organization ;
+    foaf:name "Grupo de Trabalho DCAT-BR"
+  ] ;
+  dc:license <https://creativecommons.org/licenses/by/4.0/> ;
+  owl:versionInfo "2025-12-12" ;
+  owl:versionIRI <https://dcat-br.github.io/dcat-br/docs/vocabularies/tipo-recurso/2025-12-12/> ;
+  skos:hasTopConcept tr:API, tr:DADOS, tr:DICIONARIO_DE_DADOS, tr:DOCUMENTACAO, tr:OUTRO ;
+.
+
+tr:API
+  a skos:Concept ;
+  skos:inScheme tr: ;
+  skos:topConceptOf tr: ;
+  skos:notation "API" ;
+  dc:identifier "API" ;
+  skos:prefLabel "API"@pt-BR, "API"@en ;
+  skos:definition "Interface de Programação de Aplicações (API) para acesso programático aos dados."@pt-BR, "Application Programming Interface (API) for programmatic access to data."@en ;
+.
+
+tr:DADOS
+  a skos:Concept ;
+  skos:inScheme tr: ;
+  skos:topConceptOf tr: ;
+  skos:notation "DADOS" ;
+  dc:identifier "DADOS" ;
+  skos:prefLabel "Dados"@pt-BR, "Data"@en ;
+  skos:definition "Recurso do tipo dados, contendo informações estruturadas ou não estruturadas."@pt-BR, "Data type resource, containing structured or unstructured information."@en ;
+.
+
+tr:DICIONARIO_DE_DADOS
+  a skos:Concept ;
+  skos:inScheme tr: ;
+  skos:topConceptOf tr: ;
+  skos:notation "DICIONARIO_DE_DADOS" ;
+  dc:identifier "DICIONARIO_DE_DADOS" ;
+  skos:prefLabel "Dicionário de Dados"@pt-BR, "Data Dictionary"@en ;
+  skos:definition "Dicionário de dados que descreve a estrutura e o significado dos campos de um conjunto de dados."@pt-BR, "Data dictionary that describes the structure and meaning of the fields in a dataset."@en ;
+.
+
+tr:DOCUMENTACAO
+  a skos:Concept ;
+  skos:inScheme tr: ;
+  skos:topConceptOf tr: ;
+  skos:notation "DOCUMENTACAO" ;
+  dc:identifier "DOCUMENTACAO" ;
+  skos:prefLabel "Documentação"@pt-BR, "Documentation"@en ;
+  skos:definition "Documentação relacionada ao conjunto de dados, incluindo manuais, guias e especificações."@pt-BR, "Documentation related to the dataset, including manuals, guides and specifications."@en ;
+.
+
+tr:OUTRO
+  a skos:Concept ;
+  skos:inScheme tr: ;
+  skos:topConceptOf tr: ;
+  skos:notation "OUTRO" ;
+  dc:identifier "OUTRO" ;
+  skos:prefLabel "Outro"@pt-BR, "Other"@en ;
+  skos:definition "Outro tipo de recurso não especificado nas categorias anteriores."@pt-BR, "Other type of resource not specified in the previous categories."@en ;
+.
