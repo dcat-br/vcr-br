@@ -8,7 +8,7 @@
   xmlns:foaf="http://xmlns.com/foaf/0.1/"
   xmlns:eutemas="http://publications.europa.eu/resource/authority/data-theme/">
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 
@@ -33,265 +33,265 @@
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
 
     <owl:versionInfo>2025-12-12</owl:versionInfo>
-    <owl:versionIRI rdf:resource="https://dcat-br.github.io/vcr-br/temas/2025-12-12/"/>
+    <owl:versionIRI rdf:resource="https://dcat-br.github.io/vcr-br/theme/2025-12-12/"/>
 
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/abastecimento"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/administracao"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/agropecuaria-pesca-e-extrativismo"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/comercio-e-servicos"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/comunicacoes"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/cultura"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/defesa-nacional"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/economia-e-financas"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/educacao"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/energia"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/esporte-e-lazer"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/habitacao"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/industria"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/infraestrutura-e-fomento"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/meio-ambiente"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/pesquisa-e-desenvolvimento"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/planejamento-e-gestao"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/previdencia-social"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/protecao-social"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/relacoes-internacionais"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/saneamento"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/saude"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/seguranca-e-ordem-publica"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/trabalho"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/transportes"/>
-    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/temas/urbanismo"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/abastecimento"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/administracao"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/agropecuaria-pesca-e-extrativismo"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/comercio-e-servicos"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/comunicacoes"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/cultura"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/defesa-nacional"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/economia-e-financas"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/educacao"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/energia"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/esporte-e-lazer"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/habitacao"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/industria"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/infraestrutura-e-fomento"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/meio-ambiente"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/pesquisa-e-desenvolvimento"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/planejamento-e-gestao"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/previdencia-social"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/protecao-social"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/relacoes-internacionais"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/saneamento"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/saude"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/seguranca-e-ordem-publica"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/trabalho"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/transportes"/>
+    <skos:hasTopConcept rdf:resource="https://dcat-br.github.io/vcr-br/theme/urbanismo"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/abastecimento">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/abastecimento">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>abastecimento</skos:notation>
     <dcterms:identifier>abastecimento</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Abastecimento</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de conjuntos de dados relacionados a abastecimento.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/administracao">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/administracao">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>administracao</skos:notation>
     <dcterms:identifier>administracao</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Administração</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à administração pública.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/agropecuaria-pesca-e-extrativismo">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/agropecuaria-pesca-e-extrativismo">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>agropecuaria-pesca-e-extrativismo</skos:notation>
     <dcterms:identifier>agropecuaria-pesca-e-extrativismo</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Agropecuária, Pesca e Extrativismo</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à agropecuária, pesca e extrativismo.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/comercio-e-servicos">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/comercio-e-servicos">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>comercio-e-servicos</skos:notation>
     <dcterms:identifier>comercio-e-servicos</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Comércio e Serviços</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados a comércio e serviços.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/comunicacoes">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/comunicacoes">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>comunicacoes</skos:notation>
     <dcterms:identifier>comunicacoes</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Comunicações</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados a comunicações.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/cultura">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/cultura">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>cultura</skos:notation>
     <dcterms:identifier>cultura</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Cultura</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à cultura.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/defesa-nacional">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/defesa-nacional">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>defesa-nacional</skos:notation>
     <dcterms:identifier>defesa-nacional</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Defesa Nacional</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à defesa nacional.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/economia-e-financas">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/economia-e-financas">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>economia-e-financas</skos:notation>
     <dcterms:identifier>economia-e-financas</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Economia e Finanças</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à economia e finanças.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/educacao">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/educacao">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>educacao</skos:notation>
     <dcterms:identifier>educacao</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Educação</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à educação.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/energia">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/energia">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>energia</skos:notation>
     <dcterms:identifier>energia</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Energia</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à energia.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/esporte-e-lazer">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/esporte-e-lazer">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>esporte-e-lazer</skos:notation>
     <dcterms:identifier>esporte-e-lazer</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Esporte e Lazer</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados a esporte e lazer.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/habitacao">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/habitacao">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>habitacao</skos:notation>
     <dcterms:identifier>habitacao</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Habitação</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à habitação.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/industria">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/industria">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>industria</skos:notation>
     <dcterms:identifier>industria</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Indústria</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à indústria.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/infraestrutura-e-fomento">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/infraestrutura-e-fomento">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>infraestrutura-e-fomento</skos:notation>
     <dcterms:identifier>infraestrutura-e-fomento</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Infraestrutura e Fomento</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à infraestrutura e fomento.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/meio-ambiente">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/meio-ambiente">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>meio-ambiente</skos:notation>
     <dcterms:identifier>meio-ambiente</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Meio Ambiente</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados ao meio ambiente.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/pesquisa-e-desenvolvimento">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/pesquisa-e-desenvolvimento">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>pesquisa-e-desenvolvimento</skos:notation>
     <dcterms:identifier>pesquisa-e-desenvolvimento</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Pesquisa e Desenvolvimento</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à pesquisa e desenvolvimento.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/planejamento-e-gestao">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/planejamento-e-gestao">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>planejamento-e-gestao</skos:notation>
     <dcterms:identifier>planejamento-e-gestao</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Planejamento e Gestão</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados a planejamento e gestão.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/previdencia-social">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/previdencia-social">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>previdencia-social</skos:notation>
     <dcterms:identifier>previdencia-social</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Previdência Social</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à previdência social.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/protecao-social">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/protecao-social">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>protecao-social</skos:notation>
     <dcterms:identifier>protecao-social</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Proteção Social</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à proteção social.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/relacoes-internacionais">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/relacoes-internacionais">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>relacoes-internacionais</skos:notation>
     <dcterms:identifier>relacoes-internacionais</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Relações Internacionais</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados a relações internacionais.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/saneamento">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/saneamento">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>saneamento</skos:notation>
     <dcterms:identifier>saneamento</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Saneamento</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados a saneamento.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/saude">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/saude">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>saude</skos:notation>
     <dcterms:identifier>saude</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Saúde</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à saúde.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/seguranca-e-ordem-publica">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/seguranca-e-ordem-publica">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>seguranca-e-ordem-publica</skos:notation>
     <dcterms:identifier>seguranca-e-ordem-publica</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Segurança e Ordem Pública</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados à segurança e ordem pública.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/trabalho">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/trabalho">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>trabalho</skos:notation>
     <dcterms:identifier>trabalho</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Trabalho</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados a trabalho.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/transportes">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/transportes">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>transportes</skos:notation>
     <dcterms:identifier>transportes</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Transportes</skos:prefLabel>
     <skos:definition xml:lang="pt-BR">Tema para classificação de dados relacionados a transportes.</skos:definition>
   </rdf:Description>
-  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/temas/urbanismo">
+  <rdf:Description rdf:about="https://dcat-br.github.io/vcr-br/theme/urbanismo">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
-    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/temas/"/>
+    <skos:inScheme rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
+    <skos:topConceptOf rdf:resource="https://dcat-br.github.io/vcr-br/theme/"/>
     <skos:notation>urbanismo</skos:notation>
     <dcterms:identifier>urbanismo</dcterms:identifier>
     <skos:prefLabel xml:lang="pt-BR">Urbanismo</skos:prefLabel>
