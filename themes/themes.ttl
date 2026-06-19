@@ -5,7 +5,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-@prefix temas: <https://dcat-br.github.io/vcr-br/theme/> .
+@prefix temas: <https://dcat-br.github.io/vcr-br/themes> .
 
 #######################################################################
 # Temas (DCAT-BR)
@@ -20,11 +20,11 @@ temas:
   dc:creator [ a foaf:Organization ; foaf:name "Grupo de Trabalho DCAT-BR" ] ;
   dc:license <https://creativecommons.org/licenses/by/4.0/> ;
   owl:versionInfo "2025-12-12" ;
-  owl:versionIRI <https://dcat-br.github.io/vcr-br/theme/2025-12-12/> ;
-  skos:hasTopConcept <https://dcat-br.github.io/vcr-br/theme/abastecimento>, <https://dcat-br.github.io/vcr-br/theme/administracao>, <https://dcat-br.github.io/vcr-br/theme/agropecuaria-pesca-e-extrativismo>, <https://dcat-br.github.io/vcr-br/theme/comercio-e-servicos>, <https://dcat-br.github.io/vcr-br/theme/comunicacoes>, <https://dcat-br.github.io/vcr-br/theme/cultura>, <https://dcat-br.github.io/vcr-br/theme/defesa-nacional>, <https://dcat-br.github.io/vcr-br/theme/economia-e-financas>, <https://dcat-br.github.io/vcr-br/theme/educacao>, <https://dcat-br.github.io/vcr-br/theme/energia>, <https://dcat-br.github.io/vcr-br/theme/esporte-e-lazer>, <https://dcat-br.github.io/vcr-br/theme/habitacao>, <https://dcat-br.github.io/vcr-br/theme/industria>, <https://dcat-br.github.io/vcr-br/theme/infraestrutura-e-fomento>, <https://dcat-br.github.io/vcr-br/theme/meio-ambiente>, <https://dcat-br.github.io/vcr-br/theme/pesquisa-e-desenvolvimento>, <https://dcat-br.github.io/vcr-br/theme/planejamento-e-gestao>, <https://dcat-br.github.io/vcr-br/theme/previdencia-social>, <https://dcat-br.github.io/vcr-br/theme/protecao-social>, <https://dcat-br.github.io/vcr-br/theme/relacoes-internacionais>, <https://dcat-br.github.io/vcr-br/theme/saneamento>, <https://dcat-br.github.io/vcr-br/theme/saude>, <https://dcat-br.github.io/vcr-br/theme/seguranca-e-ordem-publica>, <https://dcat-br.github.io/vcr-br/theme/trabalho>, <https://dcat-br.github.io/vcr-br/theme/transportes>, <https://dcat-br.github.io/vcr-br/theme/urbanismo> ;
+  owl:versionIRI <https://dcat-br.github.io/vcr-br/themes2025-12-12/> ;
+  skos:hasTopConcept <https://dcat-br.github.io/vcr-br/themesabastecimento>, <https://dcat-br.github.io/vcr-br/themesadministracao>, <https://dcat-br.github.io/vcr-br/themesagropecuaria-pesca-e-extrativismo>, <https://dcat-br.github.io/vcr-br/themescomercio-e-servicos>, <https://dcat-br.github.io/vcr-br/themescomunicacoes>, <https://dcat-br.github.io/vcr-br/themescultura>, <https://dcat-br.github.io/vcr-br/themesdefesa-nacional>, <https://dcat-br.github.io/vcr-br/themeseconomia-e-financas>, <https://dcat-br.github.io/vcr-br/themeseducacao>, <https://dcat-br.github.io/vcr-br/themesenergia>, <https://dcat-br.github.io/vcr-br/themesesporte-e-lazer>, <https://dcat-br.github.io/vcr-br/themeshabitacao>, <https://dcat-br.github.io/vcr-br/themesindustria>, <https://dcat-br.github.io/vcr-br/themesinfraestrutura-e-fomento>, <https://dcat-br.github.io/vcr-br/themesmeio-ambiente>, <https://dcat-br.github.io/vcr-br/themespesquisa-e-desenvolvimento>, <https://dcat-br.github.io/vcr-br/themesplanejamento-e-gestao>, <https://dcat-br.github.io/vcr-br/themesprevidencia-social>, <https://dcat-br.github.io/vcr-br/themesprotecao-social>, <https://dcat-br.github.io/vcr-br/themesrelacoes-internacionais>, <https://dcat-br.github.io/vcr-br/themessaneamento>, <https://dcat-br.github.io/vcr-br/themessaude>, <https://dcat-br.github.io/vcr-br/themesseguranca-e-ordem-publica>, <https://dcat-br.github.io/vcr-br/themestrabalho>, <https://dcat-br.github.io/vcr-br/themestransportes>, <https://dcat-br.github.io/vcr-br/themesurbanismo> ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/abastecimento>
+<https://dcat-br.github.io/vcr-br/themesabastecimento>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -34,7 +34,7 @@ temas:
   skos:definition "Tema para classificação de conjuntos de dados relacionados a abastecimento."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/administracao>
+<https://dcat-br.github.io/vcr-br/themesadministracao>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -44,7 +44,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à administração pública."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/agropecuaria-pesca-e-extrativismo>
+<https://dcat-br.github.io/vcr-br/themesagropecuaria-pesca-e-extrativismo>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -54,7 +54,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à agropecuária, pesca e extrativismo."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/comercio-e-servicos>
+<https://dcat-br.github.io/vcr-br/themescomercio-e-servicos>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -64,7 +64,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados a comércio e serviços."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/comunicacoes>
+<https://dcat-br.github.io/vcr-br/themescomunicacoes>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -74,7 +74,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados a comunicações."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/cultura>
+<https://dcat-br.github.io/vcr-br/themescultura>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -84,7 +84,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à cultura."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/defesa-nacional>
+<https://dcat-br.github.io/vcr-br/themesdefesa-nacional>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -94,7 +94,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à defesa nacional."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/economia-e-financas>
+<https://dcat-br.github.io/vcr-br/themeseconomia-e-financas>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -104,7 +104,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à economia e finanças."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/educacao>
+<https://dcat-br.github.io/vcr-br/themeseducacao>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -114,7 +114,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à educação."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/energia>
+<https://dcat-br.github.io/vcr-br/themesenergia>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -124,7 +124,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à energia."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/esporte-e-lazer>
+<https://dcat-br.github.io/vcr-br/themesesporte-e-lazer>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -134,7 +134,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados a esporte e lazer."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/habitacao>
+<https://dcat-br.github.io/vcr-br/themeshabitacao>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -144,7 +144,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à habitação."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/industria>
+<https://dcat-br.github.io/vcr-br/themesindustria>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -154,7 +154,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à indústria."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/infraestrutura-e-fomento>
+<https://dcat-br.github.io/vcr-br/themesinfraestrutura-e-fomento>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -164,7 +164,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à infraestrutura e fomento."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/meio-ambiente>
+<https://dcat-br.github.io/vcr-br/themesmeio-ambiente>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -174,7 +174,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados ao meio ambiente."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/pesquisa-e-desenvolvimento>
+<https://dcat-br.github.io/vcr-br/themespesquisa-e-desenvolvimento>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -184,7 +184,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à pesquisa e desenvolvimento."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/planejamento-e-gestao>
+<https://dcat-br.github.io/vcr-br/themesplanejamento-e-gestao>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -194,7 +194,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados a planejamento e gestão."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/previdencia-social>
+<https://dcat-br.github.io/vcr-br/themesprevidencia-social>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -204,7 +204,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à previdência social."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/protecao-social>
+<https://dcat-br.github.io/vcr-br/themesprotecao-social>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -214,7 +214,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à proteção social."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/relacoes-internacionais>
+<https://dcat-br.github.io/vcr-br/themesrelacoes-internacionais>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -224,7 +224,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados a relações internacionais."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/saneamento>
+<https://dcat-br.github.io/vcr-br/themessaneamento>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -234,7 +234,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados a saneamento."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/saude>
+<https://dcat-br.github.io/vcr-br/themessaude>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -244,7 +244,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à saúde."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/seguranca-e-ordem-publica>
+<https://dcat-br.github.io/vcr-br/themesseguranca-e-ordem-publica>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -254,7 +254,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados à segurança e ordem pública."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/trabalho>
+<https://dcat-br.github.io/vcr-br/themestrabalho>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -264,7 +264,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados a trabalho."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/transportes>
+<https://dcat-br.github.io/vcr-br/themestransportes>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
@@ -274,7 +274,7 @@ temas:
   skos:definition "Tema para classificação de dados relacionados a transportes."@pt-BR ;
  .
 
-<https://dcat-br.github.io/vcr-br/theme/urbanismo>
+<https://dcat-br.github.io/vcr-br/themesurbanismo>
   a skos:Concept ;
   skos:inScheme temas: ;
   skos:topConceptOf temas: ;
